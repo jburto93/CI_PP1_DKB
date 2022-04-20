@@ -6,11 +6,49 @@
     border: none;
 }
 
+/* company name/logo styling */
+
 #company-name {
     font-family: 'anek telugu', sans-serif;
     font-size: 200%;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
     float: left;
+}
+
+/* menu styling */
+
+#menu {
+    font-family: 'anek telugu', sans-serif;
+    font-size: 110%;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu li {
+    list-style: none;
+    float: right;
+    margin-right: 35px;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+#menu a:hover {
+    color: orange;
+}
+
+.current {
+    border: 2px solid orange;
+    padding: 0.5em;
+
 }
