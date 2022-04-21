@@ -245,6 +245,29 @@ body {
     background-size: cover;
     background-position: center center;
 }
+#about-us-text {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding-top: 60px;
+}
+
+#about-us-text h2 {
+    float: right;
+    padding-bottom: 20px;
+}
+
+#about-us-text h3 {
+    float: right;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#about-us-text p {
+    float: right;
+}
 }
 
 @media screen and (min-width: 1100px) {
@@ -275,7 +298,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 100px;
     margin-left: 50%;
     width: 300px;
@@ -283,11 +306,12 @@ body {
 
 #about-us-text h2 {
     float: right;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #about-us-text h3 {
     float: right;
+    padding-bottom: 20px;
     color: white;
 }
 
