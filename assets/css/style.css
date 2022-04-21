@@ -266,4 +266,33 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+/* about us paragraph */
+
+#about-us-text {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin-left: 50%;
+    width: 300px;
+}
+
+#about-us-text h2 {
+    float: right;
+    padding-bottom: 30px;
+}
+
+#about-us-text h3 {
+    float: right;
+    color: white;
+}
+
+#about-us-text p {
+    float: right;
+    width: 300px;
+}
 }
