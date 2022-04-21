@@ -282,7 +282,7 @@ body {
 
 #hero {
     width: 100%;
-    height: 500px;
+    height: 600px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -302,7 +302,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-left: 170px;
     margin-left: 50%;
     width: 300px;
@@ -310,7 +310,7 @@ body {
 
 #about-us-text h2 {
     float: right;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #about-us-text h3 {
@@ -327,7 +327,40 @@ body {
 #about-us-image img {
     width: 45%;
     margin: 0 auto;
-    margin-left: 80px;
+    margin-left: 60px;
+    overflow: hidden;
+    height: 400px;
+}
+
+/* why choose us paragraph / image */
+
+#why-choose-us-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding-top: 150px;
+    margin-left: 15%;
+    width: 300px;
+}
+
+#why-choose-us-text h2 {
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#why-choose-us-text ul li {
+    float: left;
+    width: 300px;
+}
+
+#why-choose-us-image img {
+    width: 45%;
+    margin: 0 auto;
+    margin-left: 195px;
     overflow: hidden;
     height: 400px;
 }
