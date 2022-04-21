@@ -15,11 +15,11 @@ body {
 
 #company-name {
     font-family: 'anek telugu', sans-serif;
-    font-size: 200%;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 60px;
     float: left;
     margin-left: 15px;
@@ -69,8 +69,9 @@ body {
     padding: 32% 20%;
 }
 
-/* menu for screens under 1099px */
-@media screen and (max-width: 1099px) {
+/* menu for screens under 950px */
+@media screen and (max-width: 950px) {
+
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -152,7 +153,7 @@ body {
 
 /* fffff */
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 950px) {
 
     #sidebar-menu li {
         display: flex;
@@ -177,7 +178,7 @@ body {
 }
 }
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 950px) {
     #menu-button-container {
         display: flex;
     }
@@ -270,7 +271,9 @@ body {
 }
 }
 
-@media screen and (min-width: 1100px) {
+/* screen size min 951px */
+
+@media screen and (min-width: 951px) {
     .top-nav {
         display: none;
     }
@@ -289,17 +292,18 @@ body {
     background-size: cover;
     background-position: center center;
 }
-
-/* about us paragraph */
+}
+/* about us paragraph / image */
 
 #about-us-text {
     text-align: center;
     text-transform: uppercase;
+    font-size: 120%;
     margin: 0;
     padding: 0;
     border: none;
-    padding-top: 60px;
-    padding-left: 100px;
+    padding-top: 80px;
+    padding-left: 170px;
     margin-left: 50%;
     width: 300px;
 }
@@ -312,7 +316,7 @@ body {
 #about-us-text h3 {
     float: right;
     padding-bottom: 20px;
-    color: white;
+    color: rgba(84, 84, 84, 0.82);
 }
 
 #about-us-text p {
@@ -323,7 +327,7 @@ body {
 #about-us-image img {
     width: 45%;
     margin: 0 auto;
-    margin-left: 50px;
-
-}
+    margin-left: 80px;
+    overflow: hidden;
+    height: 400px;
 }
