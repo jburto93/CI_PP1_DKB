@@ -7,21 +7,33 @@
 }
 
 body {
-    background-color: #525252d0;
+    font-family: mukta, sans-serif;
+    background-color: #52525244;
 }
 
 /* company name/logo styling */
 
 #company-name {
     font-family: 'anek telugu', sans-serif;
-    font-size: 200%;
+    font-size: 250%;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     line-height: 60px;
     float: left;
     margin-left: 15px;
+}
+
+#mob-company-name {
+    font-family: 'anek telugu', sans-serif;
+    font-size: 250%;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 60px;
+
 }
 
 /* menu styling */
@@ -29,10 +41,10 @@ body {
 #menu {
     font-family: 'anek telugu', sans-serif;
     font-size: 110%;
-    color: black;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
 
 #menu li {
@@ -53,8 +65,144 @@ body {
 
 .current {
     color: #ffffff;
-    background-color: #525252;
+    background-color: #52525250;
     padding: 32% 20%;
+}
+
+/* menu for screens under 750px */
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #52525244;
+    color: fff;
+    height: 50px;
+    padding: 1em;
+}
+
+#sidebar-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #52525244;
+    
+}
+
+#sidebar-menu > li {
+    margin: 0 1rem;
+}
+
+#sidebar-menu li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button, .menu-button::before, menu-button::after {
+    display: block;
+    background-color: black;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: -8px;
+}
+
+#menu-toggle:checked + #menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: none;
+}
+
+#menu-toggle:checked + #menu-button-container .menu-button {
+   background: #000000d0;
+}
+
+#menu-toggle:checked + #menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: none;
+}
+
+@media screen and (max-width: 1099px) {
+    #menu-button-container {
+        display: flex;
+    }
+    #sidebar-menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-toggle ~ #sidebar-menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ #sidebar-menu li {
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #sidebar-menu li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        
+    }
+
+    #sidebar-menu li a {
+        color: black;
+    }
+
+    #sidebar-menu > li:not(last-child) {
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    #menu {
+        display: none;
+    }
+    #company-name {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .top-nav {
+        display: none;
+    }
 }
 
 /* hero image */
