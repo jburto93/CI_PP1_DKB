@@ -372,7 +372,9 @@ body {
 
 footer {
     background-color: #52525250;
-    height: 250px;
+    height: 300px;
+    width: 100%;
+    font-size: 18px;   
 }
 
 #footer-links {
@@ -382,7 +384,7 @@ footer {
 
 #footer-links h2 {
     padding-top: 2%;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 #footer-links ul li {
@@ -401,5 +403,8 @@ footer {
 }
 
 #footer-contact-us {
-
+margin-left: 40%;
+line-height: 2;
+bottom: 210px;
+position: relative;
 }
