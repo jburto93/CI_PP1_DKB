@@ -344,17 +344,19 @@ body {
     padding-top: 150px;
     margin-left: 15%;
     width: 300px;
+    text-decoration: none;
 }
 
 #why-choose-us-text h2 {
     float: left;
     padding-bottom: 30px;
-    padding-top: 10px;
-}
+    }
 
 #why-choose-us-text ul li {
     float: left;
     width: 300px;
+    line-height: 1.4;
+    text-decoration: none;
 }
 
 #why-choose-us-image img {
