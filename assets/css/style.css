@@ -261,7 +261,9 @@ margin-top: 4%;
     color: white;
 }
 
-/* menu for screens under 950px */
+
+/*  medium screens under 950px */
+
 @media screen and (max-width: 950px) {
 
     .top-nav {
@@ -473,7 +475,7 @@ margin-top: 4%;
     }
 
     #about-us-text h3 {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     }
     
     #about-us p {
@@ -486,6 +488,7 @@ margin-top: 4%;
         height: auto;
         margin: 0 auto;
         padding-top: 5%;
+        border: none;
     }
     
     /* why choose us styling */
@@ -518,6 +521,7 @@ margin-top: 4%;
         height: auto;
         margin: 0 auto;
         margin-top: 5%;
+        border: none;
     }
 
     #main-page-content {
