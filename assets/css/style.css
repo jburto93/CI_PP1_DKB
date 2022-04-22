@@ -15,7 +15,7 @@ body {
 
 #company-name {
     font-family: 'anek telugu', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -372,14 +372,13 @@ body {
 
 footer {
     background-color: #52525250;
-    height: 300px;
     width: 100%;
-    font-size: 18px;   
+    font-size: 18px;  
 }
 
 #footer-links {
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 180px;
+    margin-left: 0px;
 }
 
 #footer-links h2 {
@@ -402,9 +401,9 @@ footer {
     color: white;
 }
 
+/*footer contact us */
+
 #footer-contact-us {
-margin-left: 40%;
+margin-left: 0%;
 line-height: 2;
-bottom: 210px;
-position: relative;
 }
