@@ -277,7 +277,7 @@ margin-top: 4%;
         flex-direction: row;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 0%;
         background-color: #52525244;
         overflow: hidden;
         
@@ -376,7 +376,7 @@ margin-top: 4%;
         #sidebar-menu {
             position: absolute;
             top: 0;
-            margin-top: 120px;
+            margin-top: 10%;
             left: 0;
             flex-direction: column;
             width: 100%;
@@ -491,7 +491,7 @@ margin-top: 4%;
     #why-choose-us-text {
         width: 90%;
         height: 40%;
-
+        margin-top: 5%;
     }
 
     #why-choose-us-text h2 {
@@ -499,22 +499,23 @@ margin-top: 4%;
     }
     
     #why-choose-us-text h2, p {
-        margin: 0 auto;
         width: 90%;
         margin-right: 45vw;
         line-height: 2; 
     }
     
-    #why-choose-us li {
-        margin-bottom: 20%;
-        float: none;
+    #why-choose-us-text ul li {
+        margin: auto 0;
+        margin-left: -7%;
+        width: 100%;
+        line-height: 2;
     }
     
     #why-choose-us-image img {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        padding-top: 5%;
+        margin-top: 5%;
     }
 
     #main-page-content {
@@ -551,3 +552,17 @@ margin-top: 4%;
         margin-left: 14%;
         }
     }
+
+    /* small screen devices under 550px */
+   
+    @media screen and (max-width: 550px) {
+
+        body {
+            font-size: 40%;
+        }
+
+        
+
+        #sidebar-menu {
+            margin-top: 20%;
+        }
