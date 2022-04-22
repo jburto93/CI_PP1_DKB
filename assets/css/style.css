@@ -6,6 +6,13 @@
     border: none;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'anek telugu', sans-serif;
     background-color: #52525244;
@@ -251,6 +258,9 @@ body {
 /* about us styling */
 
 #about-us-text {
+    margin: 0;
+    padding: 0;
+    border: none;
     width: 90%;
     height: 60vw;
     margin: 0 auto;
@@ -260,22 +270,21 @@ body {
 #about-us-text h2, h3, p {
     margin: 0 auto;
     width: 90%;
-    padding-right: 45vw;
-    line-height: 2; 
+    margin-right: 25vw;
+    line-height: 1; 
 }
 
 #about-us p {
-    padding-bottom: 20%;
+    margin-bottom: 20%;
 }
 
 #about-us-image {
     width: 150%;
-    padding-left: 7vw;
     margin: 0 auto;
-
+    margin-left: 7vw;   
 }
 
-/*why choose us styling 
+/* why choose us styling */
 
 #why-choose-us-text {
     width: 90%;
@@ -283,27 +292,24 @@ body {
     margin: 0 auto;
 }
 
-*/
 #why-choose-us-text h2, p {
     margin: 0 auto;
     width: 90%;
-    padding-right: 45vw;
+    margin-right: 45vw;
     line-height: 2; 
 }
 
 #why-choose-us p {
-    padding-bottom: 20%;
+    margin-bottom: 20%;
 }
 
 #why-choose-us-image {
     width: 150%;
+    margin-left: 7vw;
     margin: 0 auto;
-    padding-right: 15%;
-    padding-bottom: 5%;
 }
 
 footer {
-    height: 200%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -311,22 +317,23 @@ footer {
 }
 
 #footer-links {
-    padding-bottom: 10%;
-    padding-right: 2%;
+    padding-bottom: 5%;
+    margin-right: 2%;
+    margin-top: 5%
     }
 
 #footer-contact-us {
     text-align: left;
-    padding-bottom: 10%;
-    padding-left: 8%;
+    margin-bottom: 5%;
+    margin-left: 5%;
     }
 
     #footer-contact-us p {
-    padding-left: 4%;
+    margin-left: 4%;
     }
 
-#footer-socials {
-    padding-left: 15%;
+    #footer-socials {
+    margin-left: 14%;
     }
 }
 
@@ -379,7 +386,7 @@ footer {
 #about-us-text h3 {
     float: right;
     padding-bottom: 10%;
-    padding-right: 6%;
+    margin-right: 6%;
     color: rgba(84, 84, 84, 0.82);
 }
 
@@ -403,14 +410,14 @@ footer {
     text-transform: uppercase;
     font-size: 120%;
     margin-left: 12%;
-    padding-top: 15%;
+    margin-top: 15%;
 
     width: 25%
 }
 
 #why-choose-us-text h2 {
     float: left;
-    padding-bottom: 10%;
+    margin-bottom: 10%;
 
     }
 
@@ -434,7 +441,7 @@ footer {
 
 footer {
     background-color: #52525250;
-    font-size: 115%; 
+    font-size: 120%; 
     width: 100%;
     text-align: center;
     position: relative;
@@ -447,15 +454,15 @@ footer {
 #footer-links {
     text-align: center;
     float: left;
-    padding-left: 5%;
+    margin-left: 5%;
     height: auto;
     width: auto;
     display: inline-block;
-    margin-top: 3.5%;
+    padding-top: 3.5%;
 }
 
-#footer-links h2 {
-margin-bottom: 6%;
+    #footer-links h2 {
+    padding-bottom: 6%;
 }
 
 #footer-links ul li {
@@ -480,7 +487,6 @@ text-align: center;
 height: auto;
 width: auto;
 display: inline-block;
-padding-right: 5%;
 line-height: 2;
 margin-top: 3%;
 }
@@ -492,7 +498,7 @@ color: black;
 font-size: 150%;
 text-align: right;
 float: right;
-padding-right: 10%;
+margin-right: 10%;
 height: auto;
 width: auto;
 display: inline-block;
