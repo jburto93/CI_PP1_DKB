@@ -244,6 +244,8 @@ body {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
 }
 
 /* about us styling */
@@ -320,8 +322,8 @@ footer {
     }
 
     #footer-contact-us p {
-        padding-left: 4%;
-        }
+    padding-left: 4%;
+    }
 
 #footer-socials {
     padding-left: 15%;
@@ -350,6 +352,8 @@ footer {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
 }
 }
 /* about us paragraph / image */
@@ -432,13 +436,12 @@ footer {
     background-color: #52525250;
     font-size: 115%; 
     width: 100%;
- 
     text-align: center;
     position: relative;
     margin: 0 auto;
     float: left;
     margin-top: 10%;
-
+    border-top: solid 2px black;
 }
 
 #footer-links {
@@ -448,7 +451,7 @@ footer {
     height: auto;
     width: auto;
     display: inline-block;
-    margin-top: 3.4%;
+    margin-top: 3.5%;
 }
 
 #footer-links h2 {
