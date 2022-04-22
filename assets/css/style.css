@@ -561,8 +561,12 @@ margin-top: 4%;
             font-size: 40%;
         }
 
-        
+        #mob-company-name {
+            letter-spacing: 2px;
+        }
 
         #sidebar-menu {
             margin-top: 20%;
+            line-height: 1;
+            height: auto;
         }
