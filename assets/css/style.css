@@ -252,6 +252,7 @@ body {
     width: 90%;
     height: 60vw;
     margin: 0 auto;
+    text-align: center;
 }
 
 #about-us-text h2, h3, p {
@@ -272,7 +273,7 @@ body {
 
 }
 
-/*why choose us styling */
+/*why choose us styling 
 
 #why-choose-us-text {
     width: 90%;
@@ -280,6 +281,7 @@ body {
     margin: 0 auto;
 }
 
+*/
 #why-choose-us-text h2, p {
     margin: 0 auto;
     width: 90%;
@@ -298,6 +300,9 @@ body {
     padding-bottom: 5%;
 }
 
+footer {
+    margin: 0 auto;
+}
 }
 
 
@@ -333,32 +338,33 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    padding-top: 120px;
-    padding-left: 170px;
+    padding-top: 10%;
+    padding-left: 11%;
     margin-left: 50%;
-    width: 300px;
+    width: 25%;
 }
 
 #about-us-text h2 {
     float: right;
-    padding-bottom: 30px;
+    padding-bottom: 10%;
 }
 
 #about-us-text h3 {
     float: right;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
+    padding-right: 3%;
     color: rgba(84, 84, 84, 0.82);
 }
 
 #about-us-text p {
     float: right;
-    width: 300px;
+
 }
 
 #about-us-image img {
     width: 45%;
     margin: 0 auto;
-    margin-left: 60px;
+    margin-left: 5%;
     overflow: hidden;
     height: 400px;
 }
@@ -369,23 +375,20 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 120%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    padding-top: 150px;
-    margin-left: 15%;
-    width: 300px;
-    text-decoration: none;
+    margin-left: 12%;
+    padding-top: 15%;
+
+    width: 25%
 }
 
 #why-choose-us-text h2 {
     float: left;
-    padding-bottom: 30px;
+    padding-bottom: 10%;
+
     }
 
 #why-choose-us-text ul li {
     float: left;
-    width: 300px;
     line-height: 1.4;
     text-decoration: none;
     list-style-type: none;
@@ -394,7 +397,8 @@ body {
 #why-choose-us-image img {
     width: 45%;
     margin: 0 auto;
-    margin-left: 175px;
+    margin-left: 13%;
+    margin-top: -2%;
     overflow: hidden;
     height: 400px;
 }
@@ -403,15 +407,14 @@ body {
 
 footer {
     background-color: #52525250;
-    font-size: 18px; 
+    font-size: 115%; 
     width: 100%;
     height: 320px;   
-    margin-bottom: 150px;
     text-align: center;
     position: relative;
     margin: 0 auto;
     float: left;
-    margin-top: 150px;
+    margin-top: 10%;
 
 }
 
