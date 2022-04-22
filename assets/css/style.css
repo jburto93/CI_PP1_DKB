@@ -7,14 +7,13 @@
 }
 
 body {
-    font-family: mukta, sans-serif;
+    font-family: 'anek telugu', sans-serif;
     background-color: #52525244;
 }
 
 /* company name/logo styling */
 
 #company-name {
-    font-family: 'anek telugu', sans-serif;
     font-size: 20px;
     color: black;
     text-decoration: none;
@@ -26,7 +25,6 @@ body {
 }
 
 #mob-company-name {
-    font-family: 'anek telugu', sans-serif;
     font-size: 220%;
     color: black;
     text-decoration: none;
@@ -247,29 +245,29 @@ body {
     background-position: center center;
 }
 #about-us-text {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    border: none;
-    padding-top: 60px;
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
 }
 
-#about-us-text h2 {
-    float: right;
-    padding-bottom: 20px;
+#about-us-text h2, h3, p {
+    margin: 0 auto;
+    width: 90%;
+    padding-right: 45vw;
+    line-height: 2;
+    height: 12vw;
 }
 
-#about-us-text h3 {
-    float: right;
-    padding-bottom: 20px;
-    color: white;
+#about-us-image {
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    margin: 0 auto;
+    padding-bottom: 80vw important!;
+}
 }
 
-#about-us-text p {
-    float: right;
-}
-}
+
 
 /* screen size min 951px */
 
@@ -332,7 +330,7 @@ body {
     height: 400px;
 }
 
-/* why choose us paragraph / image */
+/* why choose us paragraph - image */
 
 #why-choose-us-text {
     text-align: center;
@@ -363,7 +361,7 @@ body {
 #why-choose-us-image img {
     width: 45%;
     margin: 0 auto;
-    margin-left: 195px;
+    margin-left: 175px;
     overflow: hidden;
     height: 400px;
 }
@@ -385,7 +383,7 @@ footer {
 }
 
 #footer-links {
-    text-align: left;
+    text-align: center;
     float: left;
     padding-left: 60px;
     height: auto;
@@ -395,7 +393,7 @@ footer {
 }
 
 #footer-links h2 {
-
+margin-bottom: 10px;
 }
 
 #footer-links ul li {
@@ -432,7 +430,7 @@ color: black;
 font-size: 150%;
 text-align: right;
 float: right;
-padding-right: 60px;
+padding-right: 80px;
 height: auto;
 width: auto;
 display: inline-block;
