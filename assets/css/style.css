@@ -292,6 +292,22 @@ margin-top: 4%;
 
   /* contact us page */
 
+  .contact-us-form {
+    padding-left: 3%;
+    padding-top: 2%;
+    display: inline-grid;
+    width: 70%;
+  }
+
+  .text-input {
+    font-family: 'anek telugu', sans-serif;
+  }
+
+  .send-button :hover {
+      background: black;
+      color: white;
+  }
+
 
 /*  medium screens under 950px */
 
@@ -596,6 +612,13 @@ margin-top: 4%;
     #gallery-images {
       column-count: 2;
     }
+
+    /*contact us page */
+
+    .contact-us-form {
+        width: 80%;
+      }
+
 }
 
     /* small screen devices under 550px */
@@ -625,3 +648,4 @@ margin-top: 4%;
         #gallery-images {
             column-count: 1;
           }
+

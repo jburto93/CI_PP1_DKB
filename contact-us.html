@@ -62,7 +62,7 @@
         </div>
     </section>
     <section class="contact-us-form">
-        <form class="contact-us-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <form class="contact-us-form" method="POST" action="https://formdump.codeinstitute.net/">
 
             <label for="yname">Your Name</label>
             <input class="text-input" id="yname" name="your_name" type="text" required> <br>
@@ -73,11 +73,10 @@
             <label for="phone">Contact Number</label>
             <input class="text-input" id="phone" name="contact_number" type="text" required> <br>
             
-            <textarea rows="5" cols="40" class="text-input" name="your-query" required>Your Query</textarea> <br>
+            <textarea rows="5" cols="40" class="text-input" name="your-query" onfocus="this.value=''" required>Your Query</textarea> <br>
 
-            <input class="join-button" type="submit" value="Send">
+            <input class="send-button" type="submit" value="Send">
         </form>
-    </section>
 
     <footer>
         <div id="footer-links">
