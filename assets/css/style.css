@@ -262,6 +262,19 @@ margin-top: 4%;
 }
 
 
+/* gallery page */
+
+#gallery-header {
+    clear: both;
+}
+
+#gallery-images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+  }
+
+
 /*  medium screens under 950px */
 
 @media screen and (max-width: 950px) {
@@ -557,11 +570,15 @@ margin-top: 4%;
         #footer-socials {
         margin-left: 14%;
         }
-    }
 
     /* our services page */
 
+    /* gallery page */
 
+    #gallery-images {
+      column-count: 2;
+    }
+}
 
     /* small screen devices under 550px */
    
@@ -584,3 +601,9 @@ margin-top: 4%;
         #why-choose-us-image img {
             margin-bottom: 10%;
         }
+
+        /*gallery page */
+
+        #gallery-images {
+            column-count: 1;
+          }
