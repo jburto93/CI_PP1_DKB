@@ -266,6 +266,14 @@ margin-top: 4%;
 
 #gallery-header {
     clear: both;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#gallery-header h2 {
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 2%;
 }
 
 #gallery-images {
