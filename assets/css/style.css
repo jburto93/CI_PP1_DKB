@@ -271,9 +271,9 @@ margin-top: 4%;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        color: fff;
         height: 50px;
         padding: 1em;
+        border-bottom: solid 2px black;
     }
     
     #sidebar-menu {
@@ -579,4 +579,8 @@ margin-top: 4%;
             margin-top: 20%;
             line-height: 1;
             height: auto;
+        }
+
+        #why-choose-us-image img {
+            margin-bottom: 10%;
         }
