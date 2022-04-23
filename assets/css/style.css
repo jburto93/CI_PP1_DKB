@@ -264,15 +264,16 @@ margin-top: 4%;
 
 /* gallery page */
 
-#gallery-header {
+.internal-header {
     clear: both;
     padding-top: 5%;
     padding-left: 5%;
 }
 
-#gallery-header h2 {
+.internal-header h2 {
     font-size: 200%;
     font-weight: bold;
+    text-decoration: underline;
     padding-bottom: 2%;
 }
 
@@ -286,6 +287,8 @@ margin-top: 4%;
   #gallery-images > img {
       width: 100%;
   }
+
+  /* contact us page */
 
 
 /*  medium screens under 950px */
