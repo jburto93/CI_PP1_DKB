@@ -71,11 +71,8 @@ body {
 .current {
     color: #ffffff;
     background-color: #52525250;
-    padding: 32% 20%;
+    padding: 1vw;
 }
-
-
-
 
 
 /* screen size min 951px */
@@ -84,6 +81,7 @@ body {
     .top-nav {
         display: none;
     }
+
 
 /* hero image */
 
@@ -102,46 +100,30 @@ body {
     border-top: solid 2px black;
 }
 }
+
+
 /* about us paragraph / image */
 
 #about-us-text {
+    float: right;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 120%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    padding-top: 10%;
-    padding-left: 11%;
-    margin-left: 50%;
-    width: 25%;
+    width: 40%;
+    display: inline-grid;
+    margin-top: 15%;
+    margin-right: 5%;
 }
 
 #about-us-text h2 {
-    float: right;
-    padding-bottom: 10%;
-}
-
-#about-us-text h3 {
-    float: right;
-    padding-bottom: 10%;
-    margin-right: 6%;
-    color: rgba(84, 84, 84, 0.82);
-}
-
-#about-us-text p {
-    float: right;
-
+    padding-bottom: 5%;
 }
 
 #about-us-image img {
-    width: 45%;
-    margin: 0 auto;
-    margin-left: 5%;
-    overflow: hidden;
-    height: 400px;
+    width: 50%;
+    margin-top: 10%;
+    height: 30vw;
     border: solid 2px black;
 }
+
 
 /* why choose us paragraph - image */
 
@@ -498,41 +480,23 @@ margin-top: 4%;
         border-top: solid 2px black;
     }
     
+
     /* about us styling */
 
-    #about-us {
-        padding-top: 10%;
-    }
-    
     #about-us-text {
-        margin: 0;
-        padding: 0;
-        border: none;
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #about-us #about-us-text h2, h3, p {
-        margin-right: 5%;
-    }
-
-    #about-us-text h2, h3, p {
-        margin: 0 auto;
-        width: 90%;
-        margin-right: 25vw;
-        line-height: 0;
-    }
-
-    #about-us-text h3 {
-    padding-bottom: 2%;
-    }
-    
-    #about-us p {
         float: none;
-        padding-left: 5%;
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 80%;
     }
-    
+
+    #about-us-text h2 {
+        padding-right: 10%;
+        padding-bottom: 5%;
+    }
+
+    /*
+
     #about-us-image img {
         width: 100%;
         height: auto;
@@ -540,7 +504,7 @@ margin-top: 4%;
         padding-top: 5%;
         border: none;
     }
-    
+    */
     /* why choose us styling */
     
     #why-choose-us-text {
