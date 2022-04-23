@@ -262,7 +262,7 @@ margin-top: 4%;
 }
 
 
-/* gallery page */
+/* internal pages */
 
 .internal-header {
     clear: both;
@@ -276,6 +276,8 @@ margin-top: 4%;
     text-decoration: underline;
     padding-bottom: 2%;
 }
+
+/*gallery page*/
 
 #gallery-images {
     clear: both;
