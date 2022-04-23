@@ -303,11 +303,14 @@ margin-top: 4%;
     font-family: 'anek telugu', sans-serif;
   }
 
-  .send-button :hover {
-      background: black;
-      color: white;
+  #contact-us-map {
+      margin-top: 5%;
   }
 
+  #contact-us-map iframe {
+      padding-left: 5%;
+      width: 90%;
+  }
 
 /*  medium screens under 950px */
 
