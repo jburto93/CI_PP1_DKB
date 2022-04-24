@@ -303,7 +303,7 @@ footer {
 
 @media screen and (max-width: 950px) {
 
-    /* burger menu */
+    /* menu / header */
 
     .top-nav {
         display: flex;
@@ -313,6 +313,17 @@ footer {
         height: 50px;
         padding: 1em;
         border-bottom: solid 2px black;
+    }
+
+    #sidebar-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 84px;
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;
+        background: rgba(169, 169, 169, 1);
     }
  
     #sidebar-menu li {
@@ -377,31 +388,6 @@ footer {
         transform: none;
     }
 
-    
-    /* hero */
-    
-        #hero {
-            height: 400px;
-            background: url(../images/hero3.jpg) no-repeat center center;
-            background-size: cover;
-            border-bottom: solid 2px black;
-        }
-
-    /* menu / header */
-
-        #sidebar-menu {
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin-top: 84px;
-            width: 100%;
-            justify-content: center;
-            overflow: hidden;
-            background: rgba(169, 169, 169, 1);
-}
-
-
-
         #menu-toggle ~ #sidebar-menu li {
             height: 0;
             margin: 0;
@@ -419,9 +405,11 @@ footer {
         #sidebar-menu > li:not(last-child) {
             border-bottom: 1px solid rgb(255, 255, 255);
         }
+
         #menu {
             display: none;
         }
+
         #company-name {
             display: none;
         }
@@ -440,6 +428,16 @@ footer {
             font-size: 16px;
             font-weight: 300;
         }
+
+        /* hero */
+    
+        #hero {
+            height: 400px;
+            background: url(../images/hero3.jpg) no-repeat center center;
+            background-size: cover;
+            border-bottom: solid 2px black;
+        }
+
 
     /* about us styling */
 
@@ -535,10 +533,14 @@ footer {
             font-size: 75%;
         }
 
+        /* menu */
+
         #sidebar-menu {
             margin-top: 76px;
 
         }
+
+        /* why choose us page */
 
         #why-choose-us-image img {
             margin-bottom: 10%;
