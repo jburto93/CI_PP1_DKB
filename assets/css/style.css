@@ -244,6 +244,7 @@ footer {
 
 #our-services-p {
     display: flex;
+    font-size: 120%;
 }
 
 #our-services-p1 {
@@ -293,8 +294,8 @@ footer {
 }
 
 #our-services-image img {
-    width: 25%;
-    margin-left: 15%;
+    width: 35%;
+    margin-left: 10%;
     margin-top: 5%;
     border: solid 2px black;
     border-radius: 50%;
@@ -554,9 +555,10 @@ footer {
     /* our services page */
 
     #our-services-image img {
-        
         width: 80%;
-        margin-top: 5%;
+        margin: 0 auto;
+        margin-left: 8%;
+        margin-bottom: 10%;
     } 
 
     #our-services-p {
