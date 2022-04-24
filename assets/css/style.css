@@ -228,21 +228,19 @@ footer {
 }
 
 .internal-header h2 {
-    font-size: 200%;
+    font-size: 220%;
     font-weight: bold;
     text-decoration: underline;
-    padding-bottom: 2%;
-}
-
-.internal-header h2 {
-    font-size: 200%;
-    font-weight: bold;
-    text-decoration: underline;
-    padding-bottom: 2%;
     background: #52525244;
     margin: 0 -999rem;
-    height: 150px;
+    height: 180px;
     margin-top: -70px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-align: center;
+    padding-right: 90%;
+    align-items: center;
+    display: grid;
 }
 
 /* our services page */
@@ -313,8 +311,8 @@ footer {
 }
 
 #our-services-image img {
-    width: 30%;
-    margin-left: 12%;
+    width: 20%;
+    margin-left: 3.5%;
     margin-top: 5%;
     margin-bottom: 5%;
     border: solid 2px black;
@@ -609,6 +607,7 @@ footer {
     margin: 0 auto;
     background: none;
     height: auto;
+    border: none;
     }
 
 }
