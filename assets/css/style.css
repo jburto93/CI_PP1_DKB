@@ -251,6 +251,8 @@ footer {
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
+    align-items: center;
+    display: flex;
     margin: 5%;
     width: 100%;
     box-sizing: border-box;
@@ -263,6 +265,8 @@ footer {
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
+    align-items: center;
+    display: flex;
     margin: 5%;
     width: 100%;
     box-sizing: border-box;
@@ -275,6 +279,8 @@ footer {
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
+    align-items: center;
+    display: flex;
     margin: 5%;
     width: 100%;
     box-sizing: border-box;
@@ -287,11 +293,12 @@ footer {
 }
 
 #our-services-image img {
-    width: 22%;
-    margin-left: 8%;
+    width: 25%;
+    margin-left: 15%;
     margin-top: 5%;
     border: solid 2px black;
-    border-radius: 10%;
+    border-radius: 50%;
+}
 }
 
 
@@ -557,8 +564,10 @@ footer {
     }
 
     #our-services-p p {
-        width: 70%;
-        margin: 10%;
+        width: 75%;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: 15%;
     }
 
     /* gallery page */
