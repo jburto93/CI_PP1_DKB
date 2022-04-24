@@ -234,6 +234,17 @@ footer {
     padding-bottom: 2%;
 }
 
+.internal-header h2 {
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 2%;
+    background: #52525244;
+    margin: 0 -999rem;
+    height: 150px;
+    margin-top: -70px;
+}
+
 /* our services page */
 
 #our-services-text {
@@ -291,20 +302,19 @@ footer {
 
 #our-services-text h2 {
     text-decoration: underline;
+    text-align: center;
+    font-size: 200%;
+    background: #52525244;
+    margin: 0 -999rem;
+    margin-bottom: 5%;
+    height: 80px;
+    display: grid;
+    align-items: center;
 }
 
 #our-services-image img {
-    width: 35%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: solid 2px black;
-    border-radius: 50%;
-}
-
-#our-services-image2 img {
-    width: 35%;
-    margin-left: 10%;
+    width: 30%;
+    margin-left: 12%;
     margin-top: 5%;
     margin-bottom: 5%;
     border: solid 2px black;
@@ -564,9 +574,9 @@ footer {
     /* our services page */
 
     #our-services-image img {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
-        margin-left: 8%;
+        margin-left: 13%;
         margin-bottom: 10%;
     } 
 
@@ -592,6 +602,14 @@ footer {
     .contact-us-form {
         width: 80%;
       }
+
+      /* internal pages */
+
+    .internal-header h2 {
+    margin: 0 auto;
+    background: none;
+    height: auto;
+    }
 
 }
 
