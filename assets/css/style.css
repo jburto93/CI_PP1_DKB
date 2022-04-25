@@ -224,7 +224,7 @@ footer {
 .internal-header {
     clear: both;
     padding-top: 5%;
-    padding-left: 5%;
+
 }
 
 .internal-header h2 {
@@ -233,12 +233,12 @@ footer {
     text-decoration: underline;
     background: #52525244;
     margin: 0 -999rem;
-    height: 180px;
-    margin-top: -70px;
+    height: 15rem;
+    margin-top: -5rem;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     text-align: center;
-    padding-right: 90%;
+    padding-right: 80%;
     align-items: center;
     display: grid;
 }
@@ -603,11 +603,20 @@ footer {
 
       /* internal pages */
 
+    .internal-header {
+        margin-left: 5%;
+    }
+
     .internal-header h2 {
-    margin: 0 auto;
-    background: none;
-    height: auto;
-    border: none;
+        margin: 0 auto;
+        margin-top: -2.9rem;
+        padding-left: 5%;
+        height: 10rem;
+        width: 100%;
+        text-align: left;
+        font-size: 180%;
+        border: none;
+        border-bottom: solid 2px black;
     }
 
 }
