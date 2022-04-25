@@ -578,14 +578,17 @@ footer {
     /* our services page */
 
     #our-services-image img {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
-        margin-left: 13%;
-        margin-bottom: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     } 
 
     #our-services-p {
-        display: unset;
+        display: grid;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     #our-services-p p {
@@ -650,9 +653,6 @@ footer {
 
         /* our services page */
 
-        #our-services-p p {
-            width: 90%;
-        }
 
         /*gallery page */
 
