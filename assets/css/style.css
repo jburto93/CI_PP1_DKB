@@ -262,6 +262,10 @@ footer {
     font-size: 120%;
 }
 
+#contact-us-button {
+    width: 50%;
+}
+
 #our-services-p {
     display: flex;
     margin-left: 16%;
