@@ -252,51 +252,46 @@ footer {
 #our-services-p {
     display: flex;
     font-size: 120%;
+    margin-left: 16%;
 }
 
 #our-services-p1 {
-    padding: 5%;
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
     align-items: center;
     display: flex;
-    margin: 5%;
-    width: 100%;
     box-sizing: border-box;
     background: #52525244;
-}
-
-#our-services-p1:hover {
-    font: 0/0 a;
-    background: url(../images/gallery-kitchen1.jpg);
-    background-size: cover;
+    width: 20%;
+    height: 10vw;
+    margin-left: 5%;
 }
 
 #our-services-p2 {
-    padding: 5%;
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
     align-items: center;
     display: flex;
-    margin: 5%;
-    width: 100%;
     box-sizing: border-box;
     background: #52525244;
+    width: 20%;
+    height: 10vw;
+    margin-left: 5%;
 }
 
 #our-services-p3 {
-    padding: 5%;
     border: solid 2px black;
     border-radius: 10%;
     text-align: center;
     align-items: center;
     display: flex;
-    margin: 5%;
-    width: 100%;
     box-sizing: border-box;
     background: #52525244;
+    width: 20%;
+    height: 10vw;
+    margin-left: 5%;
 }
 
 #our-services-text h2 {
