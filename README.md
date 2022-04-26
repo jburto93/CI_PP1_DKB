@@ -27,3 +27,19 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
+
+### User Goals
+- Find a company who installs kitchens and/or bathrooms.
+- See the different range of kitchens and bathrooms.
+- See the quality of of work the company produce.
+- Find company contact details
+- Find company location
+
+### Site Owner Goals
+- Promote the company.
+- Increase the sales of the company.
+- Provide a way for customers to see what the company does/produces.
+- Provide a way for the customers to see the companys standard of work.
+- Provide a way for customers to contact the company.
