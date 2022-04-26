@@ -103,9 +103,18 @@ The heading font chosen for throughout the site is anek telugu from Google Fonts
 
 ### Structure
 The webpage has been structured in a familiar and accessible way. Once the user has reached the site they will instantly see the company name/logo in the top left corner and the navitgation menu in the top right corner, this is common throughout the site to keep the site easily operated by the user. The site is made up of four pages:
-Homepage - Has two sections, firstly a brief introduction to the company and secondly reasons why to choose the company.
-Our Services - Outlines the servies the company offer.
-Gallery - Shows the user an image gallery of all recent work completed by the company.
-Contact Us - Provides all contact information for the company and a form allowing the user to contact the company.
+- Homepage has two sections, firstly a brief introduction to the company and secondly reasons why to choose the company.
+- Our Services outlines the servies the company offer.
+- Gallery shows the user an image gallery of all recent work completed by the company.
+- Contact Us provides all contact information for the company and a form allowing the user to contact the company.
 
 ### Wireframes
+
+
+## Technologies Used
+
+### Languages
+- HTML 5
+- CSS 3
+
+### Frameworks & Tools
