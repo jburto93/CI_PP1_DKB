@@ -3,11 +3,11 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colours](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -52,7 +52,7 @@
 - People who are wanting a new bathroom.
 - People who own a house.
 
-### User Requrements and Expectations
+### User Requirements and Expectations
 
 - Consistancy in the site so the customer quickly gets used to the site.
 - A simple way to navigate around the site.
@@ -68,7 +68,7 @@
 
 ### User Stories
 
-#### First-time User 
+#### First time User 
 1. As a first time user, I want to see the variety of kitchens the company offer.
 2. As a first time user, I want to see the variety of bathrooms the company offer.
 3. As a first time user, I want to see the standard of work the company produce.
@@ -89,3 +89,23 @@
 14. As the site owner, I want the customers to be able to contact us.
 15. As the site owner, I want the customers to be able to give us feedback on our work.
 
+
+## Design
+
+### Design Choices
+The website was designed to look modern and stylish while keeping the site simple to naviagte for the customer, the design replicates the companies sleek kitchen and bathroom designs they offer. 
+
+### Colour
+The monochromatic colour scheme of black, white and different shades of grey was chosen to give a modern look to the webpage. The darker colouring also allows the images of the companies installed work really stand out. When choosing the site colours I used Adobe Color to confirm the contrast between the colours was right.
+
+### Fonts
+The heading font chosen for throughout the site is anek telugu from Google Fonts, the reasons I chose this font is because it is very clear and easy to read. The chosen font also has a stylish modern look which links in with the design of the webpage. As a back up I chose sans-serif if the anek telugu is unavailable.
+
+### Structure
+The webpage has been structured in a familiar and accessible way. Once the user has reached the site they will instantly see the company name/logo in the top left corner and the navitgation menu in the top right corner, this is common throughout the site to keep the site easily operated by the user. The site is made up of four pages:
+Homepage - Has two sections, firstly a brief introduction to the company and secondly reasons why to choose the company.
+Our Services - Outlines the servies the company offer.
+Gallery - Shows the user an image gallery of all recent work completed by the company.
+Contact Us - Provides all contact information for the company and a form allowing the user to contact the company.
+
+### Wireframes
