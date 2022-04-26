@@ -45,6 +45,27 @@
 - Provide a way for customers to contact the company.
 
 
+## User Experience
+
+### Target Audience
+- People who are wanting a new kitchen.
+- People who are wanting a new bathroom.
+- People who own a house.
+
+### User Requrements and Expectations
+
+- Consistancy in the site so the customer quickly gets used to the site.
+- A simple way to navigate around the site.
+- To easily be able to find the information they are looking for.
+- An eye catching site / design on different device screen sizes.
+- Easy to read content.
+- Easily accessible site.
+- All links and functions to work as expected.
+- To find the company contact details.
+- To find the company location.
+
+
+
 ### User Stories
 
 #### First-time User 
