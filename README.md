@@ -199,7 +199,8 @@ The webpage is made up of 12 features across four pages.
 - 12. As the site owner, I want the customer to see what we offer.
 
 ### About Us section
-
+![About Us section](docs/design/about-us.png)
+![About Us section on mobile devices](docs/design/about-us-mobile.png)
 
 
 
