@@ -1,3 +1,10 @@
+# Douglas Kitchens & Bathrooms
+
+![Homepage across different device sizes](docs/design/am-i-responsive.png)
+
+[Visit the webpage](https://jburto93.github.io/CI_PP1_DKB/) <br>
+Developer - Jonathan Burton
+
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
