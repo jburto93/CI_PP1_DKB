@@ -112,6 +112,11 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/Portfolio1---Wireframe---homepage.pdf">
+</details>
+
+
 
 ## Technologies Used
 
