@@ -113,7 +113,28 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/Portfolio1---Wireframe---homepage.pdf">
+<img src="docs/design/wireframes/1-Homepage.png">
+</details>
+<details><summary>Home - Mobile</summary>
+<img src="docs/design/wireframes/2-Homepage-mobile.png">
+</details>
+<details><summary>Our Services</summary>
+<img src="docs/design/wireframes/3-Our-Services.png">
+</details>
+<details><summary>Our Services - Mobile</summary>
+<img src="docs/design/wireframes/4-Our-Services-mobile.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/design/wireframes/5-Gallery.png"">
+</details>
+<details><summary>Gallery - Mobile</summary>
+<img src="docs/design/wireframes/6-Gallery-mobile.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/design/wireframes/7-Contact-Us.png">
+</details>
+</details><details><summary>Contact Us - Mobile</summary>
+<img src="docs/design/wireframes/8-Contact-Us-mobile.png">
 </details>
 
 
