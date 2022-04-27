@@ -218,7 +218,15 @@ The webpage is made up of 12 features across four pages.
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 11. As the site owner, I want the customer to learn about the company.
 
-#### Our Services Features
-### Kitchen Installations
+### Our Services Features
+#### Kitchen Installations
 ![Kitchen Installations section](docs/design/kitchen-installations.png)
 ![Kitchen Installations images](docs/design/kitchen-installations-images.png)
+- This section give the user information aboout the companies kitchen installations.
+- The contact us button is a link to the contact us page where the user can contact the company.
+- The images show kitchen installations completed by the company.
+
+#### User stories covered by the Why Choose Us section
+- 1. As a first time user, I want to see the variety of kitchens the company offer.
+- 3. As a first time user, I want to see the standard of work the company produce.
+- 12. As the site owner, I want the customer to see what we offer.
