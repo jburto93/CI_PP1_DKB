@@ -288,6 +288,16 @@ The webpage is made up of eleven features across four pages.
 - 13. As the site owner, I want the customers to know where we are located.
 
 
+## Credits
+### Media
+All images on the webpage are taken from [Pexels](https://www.pexels.com/).
+  
+### Code
+- The HTML and CSS used for the responsive [Hamburger Menu](https://codepen.io/alvarotrigo/pen/MWEJEWG) was taken from the Codepen.
+- The CSS for the [Image Gallery](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) was inspired by the Love Running project.
+- The CSS code used to clear the 'Your Query' text in the contact form when the box is clicked was taken from [W3 Schools](https://www.w3schools.com/howto/howto_html_clear_input.asp )
+- The HTML and CSS used for the [Customer Review Carousel](https://codepen.io/onion2k/pen/xxZYBVj) was taken from Codepen.
+
 
 ## Acknowledgements
-- I would like to thank everyone at Code Institute and Slack for tracking my progression and giving me way to improve.
+- I would like to thank everyone at Code Institute and Slack for tracking my progression and giving me ways to improve.
