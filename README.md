@@ -160,6 +160,21 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 ## Features
 The webpage is made up of 12 features across four pages.
 
-### Navigation Bar
+### Features located on all pages
+#### Navigation Bar
 ![Webpage navigation bar](docs/design/navigation-bar.png)
 ![Webpage navigation bar on mobile devices](docs/design/navigation-bar-mobile.png)
+- The Navigation bar is consistant across all four pages.
+- The design makes it very simple for users to navigate around thr webpage.
+- The navigation bar is reponsive to all device screen sizes and the design changes to include a hamburger icon on screens under 950px to keep navigation easy on smaller devices.
+- On devices above 950px webpages will change colour to white when the user hovers over them.
+- The current page the user is on will be highlighted with grey box around page name.
+
+### Footer
+![Webpage footer](docs/design/footer.png)
+![Webpage footer on mobile devices](docs/design/footer-mobile.png)
+
+
+
+
+
