@@ -173,6 +173,11 @@ The webpage is made up of 12 features across four pages.
 ### Footer
 ![Webpage footer](docs/design/footer.png)
 ![Webpage footer on mobile devices](docs/design/footer-mobile.png)
+- The Footer is consistant across all four pages.
+- The user can navigate to other pages using the quick links section of the footer.
+- The user can find all company contact informtion using the contact us section of the footer.
+- The user can visit the company social media pages using the icon links in the footer.
+- On devices above 950px all links in the footer will change colour to white when the user hovers over them.
 
 
 
