@@ -157,6 +157,9 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 - Google Maps
 - Photo Resizer
 
+## Features
+The webpage is made up of 12 features across four pages.
 
-
-- Favicon<span>.</span>io
+### Navigation Bar
+![Webpage navigation bar](docs/design/navigation-bar.png)
+![Webpage navigation bar on mobile devices](docs/design/navigation-bar-mobile.png)
