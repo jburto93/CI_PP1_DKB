@@ -231,10 +231,23 @@ The webpage is made up of 12 features across four pages.
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 12. As the site owner, I want the customer to see what we offer.
 
+#### Bathroom Installations
+![Bathroom Installations section](docs/design/bathroom-installations.png)
+![Bathroom Installations images](docs/design/bathroom-installation-images.png)
+- This feature give the user information aboout the companies bathroom installations.
+- The contact us button is a link to the contact us page where the user can contact the company.
+- The images show bathroom installations completed by the company.
+
+#### User stories covered by the Bathroom Installations section
+- 1. As a first time user, I want to see the variety of kitchens the company offer.
+- 3. As a first time user, I want to see the standard of work the company produce.
+- 12. As the site owner, I want the customer to see what we offer.
+
+
 #### Customer Review Carousel
 ![Customer Review Carousel](docs/design/customer-carousel.png)
 - This feature shows the user reviews left by recent customers who have had work completed by the company.
 - User can move to the next review by clicking the circle icons.
 
-#### User stories covered by the Kitchen Installations section
+#### User stories covered by the Customer Review Carousel
 - 3. As a first time user, I want to see the standard of work the company produce.
