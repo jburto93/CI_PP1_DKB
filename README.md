@@ -77,7 +77,7 @@
 
 #### Returning User
 6. As a returning user, I want to see the new kitchen styles the company offer.
-7. As a returnign user, I want to see the new bathroom styles the company offer.
+7. As a returning user, I want to see the new bathroom styles the company offer.
 8. As a returning user, I want to find the company contact number to call for any issues.
 9. As a returning user, I want to leave a review following recent work completed by the company.
 10. As a returning user, I want to find the companies social media pages.
@@ -255,3 +255,14 @@ The webpage is made up of 12 features across four pages.
 ### Gallery Features
 #### Gallery Images
 ![Gallery images](docs/design/gallery.png)
+- This feature shows new customers a variety of different installations by the company.
+- This feature gives existing customers a variety of different installations by the company.
+- Images are in a masonry design style.
+
+#### User stories covered by the Customer Review Carousel
+- 1. As a first time user, I want to see the variety of kitchens the company offer.
+- 2. As a first time user, I want to see the variety of bathrooms the company offer.
+- 3. As a first time user, I want to see the standard of work the company produce.
+- 6. As a returning user, I want to see the new kitchen styles the company offer.
+- 7. As a returning user, I want to see the new bathroom styles the company offer.
+- 12. As the site owner, I want the customer to see what we offer.
