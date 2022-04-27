@@ -98,6 +98,8 @@ The website was designed to look modern and stylish while keeping the site simpl
 ### Colour
 The monochromatic colour scheme of black, white and different shades of grey was chosen to give a modern look to the webpage. The darker colouring also allows the images of the companies installed work really stand out. When choosing the site colours I used Adobe Color to confirm the contrast between the colours was right.
 
+![colour scheme image](docs/design/colour-pallette.png)
+
 ### Fonts
 The heading font chosen for throughout the site is anek telugu from Google Fonts, the reasons I chose this font is because it is very clear and easy to read. The chosen font also has a stylish modern look which links in with the design of the webpage. As a back up I chose sans-serif if the anek telugu is unavailable.
 
