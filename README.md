@@ -146,3 +146,17 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 - CSS 3
 
 ### Frameworks & Tools
+- Git
+- Gitpod
+- Github
+- Wireframe.cc
+- Google Fonts
+- Font Awsome
+- Adobe Color
+- Adobe Photoshop
+- Google Maps
+- Photo Resizer
+
+
+
+- Favicon<span>.</span>io
