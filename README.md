@@ -239,7 +239,7 @@ The webpage is made up of 12 features across four pages.
 - The images show bathroom installations completed by the company.
 
 #### User stories covered by the Bathroom Installations section
-- 1. As a first time user, I want to see the variety of kitchens the company offer.
+- 2. As a first time user, I want to see the variety of bathrooms the company offer.
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 12. As the site owner, I want the customer to see what we offer.
 
@@ -281,3 +281,8 @@ The webpage is made up of 12 features across four pages.
 
 #### Map
 ![Map](docs/design/map.png)
+- This feature shows the user where the company is located (please note no specific location has been selected on the map as company has been created for the purpose of this project).
+
+#### User stories covered by the Map
+- 5. As a first time user, I want to know where the company is located.
+- 13. As the site owner, I want the customers to know where we are located.
