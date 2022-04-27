@@ -190,7 +190,15 @@ The webpage is made up of 12 features across four pages.
 ### Homepage Features
 ### Hero Image
 ![Homepage Hero Image](docs/design/hero-image.png)
+- The homepage hero is an image of a kitchen installation completed by the company, the image is eye catching and gives the user a quick glimpse into the company.
+- The homepage hero is responsive on all device screen sizes.
 
+#### User stories covered by the Hero Image
+- 3. As a first time user, I want to see the standard of work the company produce.
+- 6. As a returning user, I want to see the new kitchen styles the company offer.
+- 12. As the site owner, I want the customer to see what we offer.
+
+### About Us section
 
 
 
