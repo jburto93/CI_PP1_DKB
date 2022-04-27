@@ -251,3 +251,7 @@ The webpage is made up of 12 features across four pages.
 
 #### User stories covered by the Customer Review Carousel
 - 3. As a first time user, I want to see the standard of work the company produce.
+
+### Gallery Features
+#### Gallery Images
+![Gallery images](docs/design/gallery.png)
