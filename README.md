@@ -226,7 +226,10 @@ The webpage is made up of 12 features across four pages.
 - The contact us button is a link to the contact us page where the user can contact the company.
 - The images show kitchen installations completed by the company.
 
-#### User stories covered by the Why Choose Us section
+#### User stories covered by the Kitchen Installations section
 - 1. As a first time user, I want to see the variety of kitchens the company offer.
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 12. As the site owner, I want the customer to see what we offer.
+
+#### Customer Review Carousel
+![Customer Review Carousel](docs/design/customer-carousel.png)
