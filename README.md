@@ -217,3 +217,8 @@ The webpage is made up of 12 features across four pages.
 #### User stories covered by the Why Choose Us section
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 11. As the site owner, I want the customer to learn about the company.
+
+#### Our Services Features
+### Kitchen Installations
+![Kitchen Installations section](docs/design/kitchen-installations.png)
+![Kitchen Installations images](docs/design/kitchen-installations-images.png)
