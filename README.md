@@ -170,7 +170,7 @@ The webpage is made up of 12 features across four pages.
 - On devices above 950px webpages will change colour to white when the user hovers over them.
 - The current page the user is on will be highlighted with grey box around page name.
 
-### Footer
+#### Footer
 ![Webpage footer](docs/design/footer.png)
 ![Webpage footer on mobile devices](docs/design/footer-mobile.png)
 - The Footer is consistant across all four pages.
@@ -178,6 +178,18 @@ The webpage is made up of 12 features across four pages.
 - The user can find all company contact informtion using the contact us section of the footer.
 - The user can visit the company social media pages using the icon links in the footer.
 - On devices above 950px all links in the footer will change colour to white when the user hovers over them.
+
+#### User stories covered by the Navigation bar / Footer
+- 4. As a first time user, I want to know how to contact the company.
+- 5. As a first time user, I want to know where the company is located. 
+- 8. As a returning user, I want to find the company contact number to call for any issues.
+- 10. As a returning user, I want to find the companies social media pages.
+- 13. As the site owner, I want the customers to know where we are located.
+- 14. As the site owner, I want the customers to be able to contact us.
+
+### Homepage Features
+### Hero Image
+
 
 
 
