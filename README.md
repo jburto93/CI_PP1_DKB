@@ -270,3 +270,11 @@ The webpage is made up of 12 features across four pages.
 ### Contact Us Features
 #### Contact Form
 ![Contact Us Form](docs/design/contact-us-form.png)
+- This feature gives the user an opportunity to contact the company with any query.
+- This feature gives the user an opportunity to leave a review.
+
+#### User stories covered by the Contact Us Form
+- 4. As a first time user, I want to know how to contact the company.
+- 9. As a returning user, I want to leave a review following recent work completed by the company.
+- 14. As the site owner, I want the customers to be able to contact us.
+- 15. As the site owner, I want the customers to be able to give us feedback on our work.
