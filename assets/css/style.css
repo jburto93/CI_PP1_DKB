@@ -77,16 +77,15 @@ body {
 
 #hero {
     width: 100%;
-    height: 760px;
+    height: 50vw;
     background: url(../images/hero3.jpg) no-repeat center center;
-    overflow: hidden;
     background-size: cover;
+    overflow: hidden;
     background-position: center center;
     border-bottom: solid 2px black;
     border-top: solid 2px black;
 }
 }
-
 
 /* about us paragraph / image */
 
@@ -118,7 +117,7 @@ body {
     text-align: center;
     float: left;
     padding-left: 5%;
-    padding-top: 20%;
+    padding-top: 18%;
     width: 40%;
     display: inline-grid;
     text-transform: uppercase;
@@ -144,7 +143,6 @@ body {
 /* footer quick links */
 
 
-
 footer {
     background-color: #52525250;
     font-size: 120%; 
@@ -155,8 +153,6 @@ footer {
     float: left;
     margin-top: 3%;
     border-top: solid 2px black;
-
-
 }
 
 #footer-links {
@@ -227,16 +223,13 @@ footer {
 
 .internal-header h2 {
     font-size: 220%;
-    font-weight: bold;
     text-decoration: underline;
-    background: #52525244;
-    margin: 0 -999rem;
+    background: url(../images/internal.hero3.jpg) no-repeat center center;
+    background-size: cover;
     height: 15rem;
-    margin-top: -5rem;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     text-align: center;
-    padding-right: 80%;
     align-items: center;
     display: grid;
 }
@@ -255,7 +248,7 @@ footer {
 }
 
 #services-paragraph {
-    width: 80%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 3%;
@@ -344,14 +337,144 @@ footer {
 }
 
 #our-services-image img {
-    width: 20%;
-    margin-left: 3.5%;
+    width: 30%;
+    border: solid 2px black;
+    display: -webkit-inline-box;
+    margin: 0 auto;
+    margin-left: 12%;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: solid 2px black;
-    border-radius: 50%;
 }
 
+#review-carousel {
+    background: black;
+    text-align: center;
+    padding-top: 5%;
+}
+
+main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 1rem;
+    pointer-events: none;
+    background: black;
+    font-size: 150%;
+  }
+  
+  div.item {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    z-index: calc((var(--position) - var(--abs)));
+  }
+  
+  div.item:nth-of-type(1) {
+    --offset: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+  }
+  div.item:nth-of-type(2) {
+    --offset: 2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 50%;
+  }
+  div.item:nth-of-type(3) {
+    --offset: 3;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 50%;
+  }
+  div.item:nth-of-type(4) {
+    --offset: 4;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 50%;
+  }
+  div.item:nth-of-type(5) {
+    --offset: 5;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 50%;
+  }
+  
+  #review-carousel input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    zoom: 2;
+    width: 5%;
+  }
+  input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+  }
+  
+  #review-carousel input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    zoom: 2;
+    width: 5%;
+  }
+  input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+  }
+  
+  #review-carousel input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+    zoom: 2;
+    width: 5%;
+  }
+  input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+  }
+  
+  #review-carousel input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+    zoom: 2;
+    width: 5%;
+  }
+  input:nth-of-type(4):checked ~ main#carousel {
+    --position: 4;
+  }
+  
+  #review-carousel input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    zoom: 2;
+    width: 5%;
+  }
+  input:nth-of-type(5):checked ~ main#carousel {
+    --position: 5;
+  }
+
+  #carousel .item {
+      width: 90%;
+  }
+
+  .item i {
+      color: gold;
+  }
 
 /* gallery page */
 
@@ -366,13 +489,12 @@ footer {
       width: 100%;
   }
 
-  /* contact us page */
+   /* contact us page */
 
   .contact-us-form {
-    padding-left: 3%;
-    padding-top: 2%;
     display: inline-grid;
-    width: 70%;
+    width: 150%;
+    padding-top: 5%;
   }
 
   .text-input {
@@ -390,18 +512,24 @@ footer {
   }
 
   #contact-us-form-text {
-      display: inline-flex;
-      align-items: center;
+    display: inline-flex;
+    padding-left: 5%;
   }
 
-  #contact-us p {
-    width: 150%;
-    margin-left: 8vw;
-    padding: 5%;
-    font-size: 120%;
-    line-height: 2;
-    border: solid 2px black;
+  #contact-us-text {
+      display: block;
+  }
+
+  #contact-us-text p {
+    width: 100%;
+    margin-left: 20vw;
+    padding: 1%;
+    font-size: 1.8vw;
+    line-height: 1.5;
+    margin-top: 2vw;
+    border: solid;
     background: #52525244;
+    text-align: center;
   }
 
   #contact-us-map {
@@ -419,7 +547,7 @@ footer {
 
     /* menu / header */
 
-    .top-nav {
+.top-nav {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -546,7 +674,7 @@ footer {
         /* hero */
     
         #hero {
-            height: 400px;
+            height: 60vw;
             background: url(../images/hero3.jpg) no-repeat center center;
             background-size: cover;
             border-bottom: solid 2px black;
@@ -595,7 +723,6 @@ footer {
         justify-content: center;
         align-items: center;
         justify-items: center;
-        margin-top: 10%;
     }
     
     #footer-links {
@@ -651,6 +778,39 @@ footer {
         width: 100%;
     }
 
+    #review-carousel {
+        font-size: 80%;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    main#carousel {
+        padding-bottom: 10%;
+        padding-top: 5%;
+      }
+
+      div.item:nth-of-type(1) {
+        font-size: 140%;
+        padding-top: 5%;
+      }
+      div.item:nth-of-type(2) {
+        font-size: 140%;
+        padding-top: 5%;
+      }
+      div.item:nth-of-type(3) {
+        font-size: 140%;
+        padding-top: 5%;
+      }
+      div.item:nth-of-type(4) {
+        font-size: 140%;
+        padding-top: 5%;
+      }
+      div.item:nth-of-type(5) {
+        font-size: 140%;
+        padding-top: 5%;
+      }
+
+
     /* gallery page */
 
     #gallery-images {
@@ -667,27 +827,17 @@ footer {
         display: inline-block;
     }
 
-      #contact-us p {
+    #contact-us-text p {
         margin: 0 auto;
-        width: 70%;
-        float: left;
-        margin-left: 3%;
+        width: 100%;
         margin-top: 5%;
-        font-size: 100%;
-      }
+    }
+
 
       /* internal pages */
 
-    .internal-header h2 {
-        margin: 0 auto;
-        margin-top: -5%rem;
-        padding-left: 5%;
-        height: 10rem;
-        width: 100%;
-        text-align: left;
-        font-size: 180%;
-        border: none;
-        border-bottom: solid 2px black;
+    .internal-header {
+        font-size: 140%;
     }
 
 }
@@ -707,11 +857,22 @@ footer {
 
         }
 
-        /* why choose us page */
+        /* why choose us */
 
         #why-choose-us-image img {
             margin-bottom: 10%;
         }
+
+        /* our servies */
+
+        #review-carousel {
+            font-size: 55%;
+        }
+
+        main#carousel {
+            padding-bottom: 10%;
+            padding-top: 5%;
+          }
 
         /*gallery page */
 
