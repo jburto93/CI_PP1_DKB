@@ -204,10 +204,16 @@ The webpage is made up of 12 features across four pages.
 - This section gives the user a brief insight into the company history.
 - The text and image are reponsive on all device screens.
 
-#### User stories covered by the Hero Image
+#### User stories covered by the About Us section
 - 3. As a first time user, I want to see the standard of work the company produce.
 - 11. As the site owner, I want the customer to learn about the company.
 
 ### Why Choose Us section
 ![Why Choose Us section](docs/design/why-choose-us.png)
 ![Why Choose Us section on mobile devices](docs/design/why-choose-us-mobile.png)
+- This section gives the user more information about the company and reasons to choose them.
+- The text and image are reponsive on all device screens.
+
+#### User stories covered by the Why Choose Us section
+- 3. As a first time user, I want to see the standard of work the company produce.
+- 11. As the site owner, I want the customer to learn about the company.
