@@ -201,7 +201,7 @@ The webpage is made up of 12 features across four pages.
 ### About Us section
 ![About Us section](docs/design/about-us.png)
 ![About Us section on mobile devices](docs/design/about-us-mobile.png)
-- This section gives the user a brief insight into the company history.
+- This feature gives the user a brief insight into the company history.
 - The text and image are reponsive on all device screens.
 
 #### User stories covered by the About Us section
@@ -211,7 +211,7 @@ The webpage is made up of 12 features across four pages.
 ### Why Choose Us section
 ![Why Choose Us section](docs/design/why-choose-us.png)
 ![Why Choose Us section on mobile devices](docs/design/why-choose-us-mobile.png)
-- This section gives the user more information about the company and reasons to choose them.
+- This feature gives the user more information about the company and reasons to choose them.
 - The text and image are reponsive on all device screens.
 
 #### User stories covered by the Why Choose Us section
@@ -222,7 +222,7 @@ The webpage is made up of 12 features across four pages.
 #### Kitchen Installations
 ![Kitchen Installations section](docs/design/kitchen-installations.png)
 ![Kitchen Installations images](docs/design/kitchen-installations-images.png)
-- This section give the user information aboout the companies kitchen installations.
+- This feature give the user information aboout the companies kitchen installations.
 - The contact us button is a link to the contact us page where the user can contact the company.
 - The images show kitchen installations completed by the company.
 
@@ -233,3 +233,8 @@ The webpage is made up of 12 features across four pages.
 
 #### Customer Review Carousel
 ![Customer Review Carousel](docs/design/customer-carousel.png)
+- This feature shows the user reviews left by recent customers who have had work completed by the company.
+- User can move to the next review by clicking the circle icons.
+
+#### User stories covered by the Kitchen Installations section
+- 3. As a first time user, I want to see the standard of work the company produce.
