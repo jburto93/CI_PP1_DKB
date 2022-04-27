@@ -189,7 +189,7 @@ The webpage is made up of 12 features across four pages.
 
 ### Homepage Features
 ### Hero Image
-
+![Homepage Hero Image](docs/design/hero-image.png)
 
 
 
