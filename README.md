@@ -105,7 +105,7 @@ The website was designed to look modern and stylish while keeping the site simpl
 ### Colour
 The monochromatic colour scheme of black, white and different shades of grey was chosen to give a modern look to the webpage. The darker colouring also allows the images of the companies installed work really stand out. When choosing the site colours I used Adobe Color to confirm the contrast between the colours was right.
 
-![colour scheme image](docs/design/colour-pallette.png)
+![colour scheme image](docs/design/colour/colour-pallette.png)
 
 ### Fonts
 The heading font chosen for throughout the site is anek telugu from Google Fonts, the reasons I chose this font is because it is very clear and easy to read. The chosen font also has a stylish modern look which links in with the design of the webpage. As a back up I chose sans-serif if the anek telugu is unavailable.
@@ -169,8 +169,8 @@ The webpage is made up of eleven features across four pages.
 
 ### Features located on all pages
 #### Navigation Bar
-![Webpage navigation bar](docs/design/navigation-bar.png)
-![Webpage navigation bar on mobile devices](docs/design/navigation-bar-mobile.png)
+![Webpage navigation bar](docs/features/navigation-bar.png)
+![Webpage navigation bar on mobile devices](docs/features/navigation-bar-mobile.png)
 - The Navigation bar is consistant across all four pages.
 - The design makes it very simple for users to navigate around thr webpage.
 - The navigation bar is reponsive to all device screen sizes and the design changes to include a hamburger icon on screens under 950px to keep navigation easy on smaller devices.
@@ -178,8 +178,8 @@ The webpage is made up of eleven features across four pages.
 - The current page the user is on will be highlighted with grey box around page name.
 
 #### Footer
-![Webpage footer](docs/design/footer.png)
-![Webpage footer on mobile devices](docs/design/footer-mobile.png)
+![Webpage footer](docs/features/footer.png)
+![Webpage footer on mobile devices](docs/features/footer-mobile.png)
 - The Footer is consistant across all four pages.
 - The user can navigate to other pages using the quick links section of the footer.
 - The user can find all company contact informtion using the contact us section of the footer.
@@ -196,7 +196,7 @@ The webpage is made up of eleven features across four pages.
 
 ### Homepage Features
 ### Hero Image
-![Homepage Hero Image](docs/design/hero-image.png)
+![Homepage Hero Image](docs/features/hero-image.png)
 - The homepage hero is an image of a kitchen installation completed by the company, the image is eye catching and gives the user a quick glimpse into the company.
 - The homepage hero is responsive on all device screen sizes.
 
@@ -204,8 +204,8 @@ The webpage is made up of eleven features across four pages.
 - 3. As a first time user, I want to see the standard of work the company produce.
 
 ### About Us section
-![About Us section](docs/design/about-us.png)
-![About Us section on mobile devices](docs/design/about-us-mobile.png)
+![About Us section](docs/features/about-us.png)
+![About Us section on mobile devices](docs/features/about-us-mobile.png)
 - This feature gives the user a brief insight into the company history.
 - The text and image are reponsive on all device screens.
 
@@ -214,8 +214,8 @@ The webpage is made up of eleven features across four pages.
 - 11. As the site owner, I want the customer to learn about the company.
 
 ### Why Choose Us section
-![Why Choose Us section](docs/design/why-choose-us.png)
-![Why Choose Us section on mobile devices](docs/design/why-choose-us-mobile.png)
+![Why Choose Us section](docs/features/why-choose-us.png)
+![Why Choose Us section on mobile devices](docs/features/why-choose-us-mobile.png)
 - This feature gives the user more information about the company and reasons to choose them.
 - The text and image are reponsive on all device screens.
 
@@ -225,8 +225,8 @@ The webpage is made up of eleven features across four pages.
 
 ### Our Services Features
 #### Kitchen Installations
-![Kitchen Installations section](docs/design/kitchen-installations.png)
-![Kitchen Installations images](docs/design/kitchen-installations-images.png)
+![Kitchen Installations section](docs/features/kitchen-installations.png)
+![Kitchen Installations images](docs/features/kitchen-installations-images.png)
 - This feature give the user information aboout the companies kitchen installations.
 - The contact us button is a link to the contact us page where the user can contact the company.
 - The images show kitchen installations completed by the company.
@@ -237,8 +237,8 @@ The webpage is made up of eleven features across four pages.
 - 12. As the site owner, I want the customer to see what we offer.
 
 #### Bathroom Installations
-![Bathroom Installations section](docs/design/bathroom-installations.png)
-![Bathroom Installations images](docs/design/bathroom-installation-images.png)
+![Bathroom Installations section](docs/features/bathroom-installations.png)
+![Bathroom Installations images](docs/features/bathroom-installation-images.png)
 - This feature give the user information aboout the companies bathroom installations.
 - The contact us button is a link to the contact us page where the user can contact the company.
 - The images show bathroom installations completed by the company.
@@ -250,7 +250,7 @@ The webpage is made up of eleven features across four pages.
 
 
 #### Customer Review Carousel
-![Customer Review Carousel](docs/design/customer-carousel.png)
+![Customer Review Carousel](docs/features/customer-carousel.png)
 - This feature shows the user reviews left by recent customers who have had work completed by the company.
 - User can move to the next review by clicking the circle icons.
 
@@ -259,7 +259,7 @@ The webpage is made up of eleven features across four pages.
 
 ### Gallery Features
 #### Gallery Images
-![Gallery images](docs/design/gallery.png)
+![Gallery images](docs/features/gallery.png)
 - This feature shows new customers a variety of different installations by the company.
 - This feature gives existing customers a variety of different installations by the company.
 - Images are in a masonry design style.
@@ -274,7 +274,7 @@ The webpage is made up of eleven features across four pages.
 
 ### Contact Us Features
 #### Contact Form
-![Contact Us Form](docs/design/contact-us-form.png)
+![Contact Us Form](docs/features/contact-us-form.png)
 - This feature gives the user an opportunity to contact the company with any query.
 - This feature gives the user an opportunity to leave a review.
 
@@ -285,7 +285,7 @@ The webpage is made up of eleven features across four pages.
 - 15. As the site owner, I want the customers to be able to give us feedback on our work.
 
 #### Map
-![Map](docs/design/map.png)
+![Map](docs/features/map.png)
 - This feature shows the user where the company is located (please note no specific location has been selected on the map as company has been created for the purpose of this project).
 
 #### User stories covered by the Map
@@ -298,22 +298,22 @@ The webpage is made up of eleven features across four pages.
 ### HTML Validation
 The HTML was validated using the W3C Markup Validation service, all four pages pass with no errors but also a few warnings.
 <details><summary>Home</summary>
-<img src="docs/html-validator-index.png">
+<img src="docs/validation/html-validator-index.png">
 </details>
 <details><summary>Our Services</summary>
-<img src="docs/html-validator-our-services.png">
+<img src="docs/validation/html-validator-our-services.png">
 </details><details><summary>Gallery</summary>
-<img src="docs/html-validator-gallery.png">
+<img src="docs/validation/html-validator-gallery.png">
 </details><details><summary>Contact Us</summary>
-<img src="docs/html-validator-contact-us.png">
+<img src="docs/validation/html-validator-contact-us.png">
 </details>
 
 
 ### CSS Validation
-T validate the CSS the W3C Jigsaw CSS Validation Service was used.
+To validate the CSS the W3C Jigsaw CSS Validation Service was used.
 The validator showed one error from the CCS file from the customer review carousel taken from [Codepen](https://codepen.io/onion2k/pen/xxZYBVj).
 <details><summary>style.css</summary>
-<img src="docs/design/W3C-CCS-Validator.png">
+<img src="docs/validation/W3C-CCS-Validator.png">
 </details>
 
 ### Performing tests on various devices 
@@ -340,8 +340,8 @@ This webpage has been tested on the following browsers:
 | Gallery Images | Navigate to the Gallery page and look through the images of recently completed work | See a variety of kitchen installs | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/kitchen-installations-feature.png">
-<img src="docs/design/gallery-images-feature.png">
+<img src="docs/user-stories/kitchen-installations-feature.png">
+<img src="docs/user-stories/gallery-images-feature.png">
 </details>
 
 2. As a first time user, I want to see the variety of bathrooms the company offer.
@@ -352,8 +352,8 @@ This webpage has been tested on the following browsers:
 | Gallery Images | Navigate to the Gallery page and look through the images of recently completed work | See a variety of bathroom installs | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/bathrooms-installation-feature.png">
-<img src="docs/design/gallery-images-feature2.png">
+<img src="docs/user-stories/bathrooms-installation-feature.png">
+<img src="docs/user-stories/gallery-images-feature2.png">
 </details>
 
 3. As a first time user, I want to see the standard of work the company produce.
@@ -369,13 +369,13 @@ This webpage has been tested on the following browsers:
 | Customer Review Carousel | Navigate to the Our Servies page and see reviews left by customers |  User sees what prevoius customers think of the work | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/hero-image-user-story.png">
-<img src="docs/design/about-us-user-story.png">
-<img src="docs/design/why-choose-us-user-story.png">
-<img src="docs/design/kitchen-installation-images-user-stories.png">
-<img src="docs/design/bathroom-installation-images-user-story.png">
-<img src="docs/design/gallery-images-feature.png">
-<img src="docs/design/carousel-user-story.png">
+<img src="docs/user-stories/hero-image-user-story.png">
+<img src="docs/user-stories/about-us-user-story.png">
+<img src="docs/user-stories/why-choose-us-user-story.png">
+<img src="docs/user-stories/kitchen-installation-images-user-stories.png">
+<img src="docs/user-stories/bathroom-installation-images-user-story.png">
+<img src="docs/user-stories/gallery-images-feature.png">
+<img src="docs/user-stories/carousel-user-story.png">
 </details>
 
 4. As a first time user, I want to know how to contact the company.
@@ -386,8 +386,8 @@ This webpage has been tested on the following browsers:
 | Contact Us Form | Navigate to the Contact Us page, form is located at the top of the page, user can submit a message to contact the company | User can send message to company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-info-user-story.png">
-<img src="docs/design/contact-us-form-user-story.png">
+<img src="docs/user-stories/contact-info-user-story.png">
+<img src="docs/user-stories/contact-us-form-user-story.png">
 </details>
 
 5. As a first time user, I want to know where the company is located.
@@ -399,8 +399,8 @@ This webpage has been tested on the following browsers:
 
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-info-user-story.png">
-<img src="docs/design/map-user-story.png">
+<img src="docs/user-stories/contact-info-user-story.png">
+<img src="docs/user-stories/map-user-story.png">
 </details>
 
 6. As a returning user, I want to see the new kitchen styles the company offer.
@@ -410,7 +410,7 @@ This webpage has been tested on the following browsers:
 | Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/gallery-images-feature.png">
+<img src="docs/user-stories/gallery-images-feature.png">
 </details>
 
 7. As a returning user, I want to see the new bathroom styles the company offer.
@@ -420,7 +420,7 @@ This webpage has been tested on the following browsers:
 | Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/gallery-images-feature.png">
+<img src="docs/user-stories/gallery-images-feature.png">
 </details>
 
 8. As a returning user, I want to find the company contact number to call for any issues.
@@ -430,7 +430,7 @@ This webpage has been tested on the following browsers:
 | Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information for the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-info-user-story.png">
+<img src="docs/user-stories/contact-info-user-story.png">
 </details>
 
 9. As a returning user, I want to leave a review following recent work completed by the company.
@@ -440,7 +440,7 @@ This webpage has been tested on the following browsers:
 | Contact Us Form | Navigate to the Contact Us page, form is located at the top of the page | User can send review message to company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-us-form-user-story.png">
+<img src="docs/user-stories/contact-us-form-user-story.png">
 </details>
 
 10. As a returning user, I want to find the companies social media pages.
@@ -450,7 +450,7 @@ This webpage has been tested on the following browsers:
 | Footer | Open any page on the website and scroll to the bottom of the page | User will see social media icon links for the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/socials-user-story.png">
+<img src="docs/user-stories/socials-user-story.png">
 </details>
 
 11. As the site owner, I want the customer to learn about the company.
@@ -460,7 +460,7 @@ This webpage has been tested on the following browsers:
 | About Us | Scroll down the Home page to the top section| User can read a about a brief introduction to the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/about-us-paragraph-user-story.png">
+<img src="docs/user-stories/about-us-paragraph-user-story.png">
 </details>
 
 12. As the site owner, I want the customer to see what we offer.
@@ -472,9 +472,9 @@ This webpage has been tested on the following browsers:
 | Gallery Images | Navigate to the Gallery page, images are located throughout the page|  User sees kitchen and bathroom installation completed by the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/kitchen-installations-feature.png">
-<img src="docs/design/bathrooms-installation-feature.png">
-<img src="docs/design/gallery-images-feature.png">
+<img src="docs/user-stories/kitchen-installations-feature.png">
+<img src="docs/user-stories/bathrooms-installation-feature.png">
+<img src="docs/user-stories/gallery-images-feature.png">
 </details>
 
 13. As the site owner, I want the customers to know where we are located.
@@ -485,8 +485,8 @@ This webpage has been tested on the following browsers:
 | Map | Navigate to the Contact Us page, map is located at the bottom of the page | User can see exactly where company is located | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-info-user-story.png">
-<img src="docs/design/map-user-story.png">
+<img src="docs/user-stories/contact-info-user-story.png">
+<img src="docs/user-stories/map-user-story.png">
 </details>
 
 14. As the site owner, I want the customers to be able to contact us.
@@ -496,7 +496,7 @@ This webpage has been tested on the following browsers:
 | Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information for the company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-info-user-story.png">
+<img src="docs/user-stories/contact-info-user-story.png">
 </details>
 
 15. As the site owner, I want the customers to be able to give us feedback on our work.
@@ -506,7 +506,7 @@ This webpage has been tested on the following browsers:
 | Contact Us Form | Navigate to the Contact Us page, form is located at the top of the page | User can send review message to company | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/design/contact-us-form-user-story.png">
+<img src="docs/user-stories/contact-us-form-user-story.png">
 </details>
 
 
