@@ -317,7 +317,7 @@ The validator showed one error from the CCS file from the customer review carous
 </details>
 
 ### Performing tests on various devices 
-The wis webpage has been tested on the following devices:
+This webpage has been tested on the following devices:
 - Samsung Galaxy 1
 - Iphone 12
 - Mabook Air
