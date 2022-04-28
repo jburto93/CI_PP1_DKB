@@ -316,6 +316,21 @@ The validator showed one error from the CCS file from the customer review carous
 <img src="docs/validation/W3C-CCS-Validator.png">
 </details>
 
+### Accessibility
+WAVE WebAIM accessibility tool was used to check the webpages accessibility levels.
+<details><summary>Home</summary>
+<img src="docs/validation/wave-validation-index.png">
+</details>
+<details><summary>Our Services</summary>
+<img src="docs/validation/wave-validation-our-services.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/wave-validation-gallery.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="">
+</details>
+
 ### Performing tests on various devices 
 This webpage has been tested on the following devices:
 - Samsung Galaxy 1
