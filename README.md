@@ -475,9 +475,15 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/contact-info-user-story.png">
 </details>
 
-
 15. As the site owner, I want the customers to be able to give us feedback on our work.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us Form | Navigate to the Contact Us page, form is located at the top of the page | User can send review message to company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/contact-us-form-user-story.png">
+</details>
 
 
 ## Bugs
