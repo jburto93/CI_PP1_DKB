@@ -453,9 +453,19 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/gallery-images-feature.png">
 </details>
 
-
-
 13. As the site owner, I want the customers to know where we are located.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information for the company | Works as expected |
+| Map | Navigate to the Contact Us page, map is located at the bottom of the page | User can see exactly where company is located | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/contact-info-user-story.png">
+<img src="docs/design/map-user-story.png">
+</details>
+
+
 14. As the site owner, I want the customers to be able to contact us.
 15. As the site owner, I want the customers to be able to give us feedback on our work.
 
