@@ -430,8 +430,18 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/socials-user-story.png">
 </details>
 
-
 11. As the site owner, I want the customer to learn about the company.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Scroll down the Home page to the top section| User can read a about a brief introduction to the company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/about-us-paragraph-user-story.png">
+</details>
+
+
+
 12. As the site owner, I want the customer to see what we offer.
 13. As the site owner, I want the customers to know where we are located.
 14. As the site owner, I want the customers to be able to contact us.
