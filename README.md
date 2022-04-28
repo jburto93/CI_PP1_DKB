@@ -292,6 +292,16 @@ The webpage is made up of eleven features across four pages.
 - 5. As a first time user, I want to know where the company is located.
 - 13. As the site owner, I want the customers to know where we are located.
 
+
+## Validation
+
+### HTML Validation
+The HTML was validated using the W3C Markup Validation service, all four pages pass with no errors but also a few warnings.
+<details><summary>Home</summary>
+<img src="docs/html-validator-index.png">
+</details>
+
+
 ### CSS Validation
 T validate the CSS the W3C Jigsaw CSS Validation Service was used.
 The validator showed one error from the CCS file from the customer review carousel taken from [Codepen](https://codepen.io/onion2k/pen/xxZYBVj).
