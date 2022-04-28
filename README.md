@@ -294,6 +294,32 @@ The webpage is made up of eleven features across four pages.
 - 5. As a first time user, I want to know where the company is located.
 - 13. As the site owner, I want the customers to know where we are located.
 
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- Honor 20 pro
+- Xiaomi Redmi Note 7
+
+Also the webpage has been tested using all the devices available on the Google Chrome Developer Tools.
+
+### Browser compatability
+This webpage has been tested on the following browsers:
+- Google Chrome
+- Safari
+- Mozilla Firefox
+
+
+## Bugs
+
+|**Bug**|**Fix**|
+|---------|---------|
+| Responsive hamburger icon button scrolls down the page as the user scrolls. | Alter the position of the icon to sticky |
+| Mobile drop down menu would open half way down the webpage hamburger | Alter the CSS to give the menu a fixed positon using PX and not a responsive unit |
+| All page links in the naivgation bar were highligted at once. | Alter the HTML changing the current class to the correct page |
+| Text 'Your Query' does not clear in the contact form input field when it is clicked. | Add the css - onfocus="this.value=''" |
+| CSS from the customer review carousel was intefiering with the contact form | Add the class name as well as the input element in CSS file to make the target more specific |
+| When viewing the site on mobile devices there was a large white space to the left of the webpage.  | Add overflow-x - hidden to the html, body element |
+
 ## Deployment
 This webpage was deployed using GitHub pages, this is how I did it.
 This website has been deployed using GitHub pages. To do the same...
