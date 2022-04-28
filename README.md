@@ -465,8 +465,17 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/map-user-story.png">
 </details>
 
-
 14. As the site owner, I want the customers to be able to contact us.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information for the company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/contact-info-user-story.png">
+</details>
+
+
 15. As the site owner, I want the customers to be able to give us feedback on our work.
 
 
