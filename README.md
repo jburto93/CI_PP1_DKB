@@ -294,6 +294,31 @@ The webpage is made up of eleven features across four pages.
 - 5. As a first time user, I want to know where the company is located.
 - 13. As the site owner, I want the customers to know where we are located.
 
+## Deployment
+This webpage was deployed using GitHub pages, this is how I did it.
+This website has been deployed using GitHub pages. To do the same...
+1. Log into your GitHub account and locate the settings tab.
+2. Click on 'settings'.
+3. Find the 'pages' tab on the LHS.
+4. Click 'source' and from the drop dowm box select 'Main - Branch'
+5. Wait while the webpage automatically refreshes. 
+6. Find the 'pages' tab again where the link to your webpage will be located.
+
+You can fork the repository, this is how I did it.
+1. Navigate to the GitHub repository.
+2. Locate and click the fork button in the top right hand corner of the screen.
+3. This will create a copy in your GitHub account.
+
+You can make a local clone, this is how I did it.
+1. Log into your GitHub account and locate the code button.
+2. Click on 'code'.
+3. Choose how you would like to clone, either using HTTPS, SSH, or Github CLI.
+4. Click the copy button to copy the URL.
+5. Open Git Bash.
+6. Change the current directory to the directory you would like to be the cloned directory.
+7. In the terminal type 'git clone' followed by your copied URL.
+8. Press Enter to generate your local clone.
+
 
 ## Credits
 ### Media
