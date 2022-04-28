@@ -202,7 +202,6 @@ The webpage is made up of eleven features across four pages.
 
 #### User stories covered by the Hero Image
 - 3. As a first time user, I want to see the standard of work the company produce.
-- 12. As the site owner, I want the customer to see what we offer.
 
 ### About Us section
 ![About Us section](docs/design/about-us.png)
@@ -440,9 +439,22 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/about-us-paragraph-user-story.png">
 </details>
 
-
-
 12. As the site owner, I want the customer to see what we offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Kitchen Installations | Navigate to the Our Services page and see the top section about the companies kitchen installations |  User sees company install kitchens| Works as expected |
+| Bathroom Installations | Navigate to the Our Services page and see the bottom section about the companies bathroom installations |  User sees company installs bathrooms | Works as expected |
+| Gallery Images | Navigate to the Gallery page, images are located throughout the page|  User sees kitchen and bathroom installation completed by the company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/kitchen-installations-feature.png">
+<img src="docs/design/bathrooms-installation-feature.png">
+<img src="docs/design/gallery-images-feature.png">
+</details>
+
+
+
 13. As the site owner, I want the customers to know where we are located.
 14. As the site owner, I want the customers to be able to contact us.
 15. As the site owner, I want the customers to be able to give us feedback on our work.
