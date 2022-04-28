@@ -420,9 +420,17 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/contact-us-form-user-story.png">
 </details>
 
-
-
 10. As a returning user, I want to find the companies social media pages.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Open any page on the website and scroll to the bottom of the page | User will see social media icon links for the company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/socials-user-story.png">
+</details>
+
+
 11. As the site owner, I want the customer to learn about the company.
 12. As the site owner, I want the customer to see what we offer.
 13. As the site owner, I want the customers to know where we are located.
