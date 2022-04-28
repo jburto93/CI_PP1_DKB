@@ -335,7 +335,7 @@ WAVE WebAIM accessibility tool was used to check the webpages accessibility leve
 Google Lighthouse from Google Chrome dev tools was used to check the performance of the webpage. 
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse-validation-our-services.png">
+<img src="docs/validation/lighthouse-validation-index.png">
 </details>
 <details><summary>Our Services</summary>
 <img src="docs/validation/lighthouse-validation-our-services.png">
