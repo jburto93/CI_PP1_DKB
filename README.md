@@ -163,6 +163,7 @@ The webpage has been structured in a familiar and accessible way. Once the user 
 - Adobe Photoshop
 - Google Maps
 - Photo Resizer
+- Photo Formatter
 
 ## Features
 The webpage is made up of eleven features across four pages.
@@ -341,7 +342,7 @@ Google Lighthouse from Google Chrome dev tools was used to check the performance
 <img src="docs/validation/lighthouse-validation-our-services.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse-validation-our-services.png">
+<img src="docs/validation/lighthouse-validation-gallery.png">
 </details>
 <details><summary>Contact Us</summary>
 <img src="docs/validation/lighthouse-validation-contact-us.png">

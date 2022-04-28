@@ -250,9 +250,6 @@ footer {
 
 .contact-us-button {
     margin: 0 auto;
-    text-decoration: none;
-    color: black;
-    display: block;
     margin-bottom: 5%;
     border: solid 2px black;
     padding: 1%;
@@ -263,8 +260,8 @@ footer {
     font-size: 120%;
 }
 
-.contact-us-button:hover {
-    background: #ffffff;
+form.contact-us-button:hover {
+    padding: 1.4%;
 }
 
 .our-services-p {
@@ -462,7 +459,6 @@ footer {
 /* gallery page */
 
 #gallery-images {
-    clear: both;
     column-count: 3;
     line-height: 0.8;
     padding-top: 5%;
@@ -728,7 +724,7 @@ footer {
         padding-bottom: 5%;
     }
 
-    .contact-us-button {
+    form.contact-us-button {
         width: 25%;
         margin: 0 auto;
         margin-bottom: 5%;
@@ -798,7 +794,6 @@ footer {
 
     #contact-us-text p {
         margin: 0 auto;
-        width: 100%;
         margin-top: 5%;
     }
 
@@ -832,15 +827,22 @@ footer {
             margin-bottom: 10%;
         }
 
-        /* our servies 
+        /* our servies */
 
         #review-carousel {
             font-size: 55%;
         }
-*/
         /*gallery page */
 
         #gallery-images {
             column-count: 1;
           }
+
+          /* contact us page */
+
+        #contact-us-text p {
+            width: 10rem;
+            margin-top: 5%;
+            margin-right: 10rem;
+        }
     }
