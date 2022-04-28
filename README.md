@@ -317,6 +317,11 @@ This webpage has been tested on the following browsers:
 | Kitchen Installations | Navigate to the Our Services page and see the top section about the companies kichen installations | User finds information on the kitchens the company offer | Works as expected |
 | Gallery Images | Navigate to the Gallery page and look through the images of recently completed work | See a variety of kitchen installs | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/design/kitchen-installations-feature.png">
+<img src="docs/design/gallery-images-feature.png">
+</details>
+
 
 
 2. As a first time user, I want to see the variety of bathrooms the company offer.
