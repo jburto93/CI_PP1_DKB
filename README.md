@@ -371,7 +371,9 @@ This webpage has been tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
+| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information for the company | Works as expected |
+| Map | Navigate to the Contact Us page, map is located at the bottom of the page | User can see exactly where company is located | Works as expected |
+
 
 <details><summary>Screenshots</summary>
 <img src="docs/design/contact-info-user-story.png">
@@ -382,8 +384,17 @@ This webpage has been tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information wheree company is located | Works as expected |
-| Map | Navigate to the Contact Us page, map is located at the bottom of the page, user can see exactly where company is located | User can see location of company | Works as expected |
+| Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/gallery-images-feature.png">
+</details>
+
+7. As a returning user, I want to see the new bathroom styles the company offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/design/gallery-images-feature.png">
@@ -393,8 +404,6 @@ This webpage has been tested on the following browsers:
 
 
 
-
-7. As a returning user, I want to see the new bathroom styles the company offer.
 8. As a returning user, I want to find the company contact number to call for any issues.
 9. As a returning user, I want to leave a review following recent work completed by the company.
 10. As a returning user, I want to find the companies social media pages.
