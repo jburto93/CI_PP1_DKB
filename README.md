@@ -328,7 +328,23 @@ WAVE WebAIM accessibility tool was used to check the webpages accessibility leve
 <img src="docs/validation/wave-validation-gallery.png">
 </details>
 <details><summary>Contact Us</summary>
-<img src="">
+<img src="docs/validation/wave-validation-contact-us.png">
+</details>
+
+### Performance 
+Google Lighthouse from Google Chrome dev tools was used to check the performance of the webpage. 
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-validation-our-services.png">
+</details>
+<details><summary>Our Services</summary>
+<img src="docs/validation/lighthouse-validation-our-services.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse-validation-our-services.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/lighthouse-validation-contact-us.png">
 </details>
 
 ### Performing tests on various devices 
