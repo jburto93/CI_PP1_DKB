@@ -300,6 +300,13 @@ The HTML was validated using the W3C Markup Validation service, all four pages p
 <details><summary>Home</summary>
 <img src="docs/html-validator-index.png">
 </details>
+<details><summary>Our Services</summary>
+<img src="docs/html-validator-index.png">
+</details><details><summary>Gallery</summary>
+<img src="docs/html-validator-gallery.png">
+</details><details><summary>Home</summary>
+<img src="docs/html-validator-index.png">
+</details>
 
 
 ### CSS Validation
