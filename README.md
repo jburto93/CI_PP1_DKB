@@ -293,10 +293,10 @@ The webpage is made up of eleven features across four pages.
 - 13. As the site owner, I want the customers to know where we are located.
 
 ### Performing tests on various devices 
-The website was tested on the following devices:
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
-- Honor 20 pro
-- Xiaomi Redmi Note 7
+The wis webpage has been tested on the following devices:
+- Samsung Galaxy 1
+- Iphone 12
+- Mabook Air
 
 Also the webpage has been tested using all the devices available on the Google Chrome Developer Tools.
 
