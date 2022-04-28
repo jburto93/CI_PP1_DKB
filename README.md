@@ -202,7 +202,6 @@ The webpage is made up of eleven features across four pages.
 
 #### User stories covered by the Hero Image
 - 3. As a first time user, I want to see the standard of work the company produce.
-- 6. As a returning user, I want to see the new kitchen styles the company offer.
 - 12. As the site owner, I want the customer to see what we offer.
 
 ### About Us section
@@ -344,6 +343,7 @@ This webpage has been tested on the following browsers:
 | Kitchen Installations | Navigate to the Our Services page and see the top section about the companies kitchen installations |  User sees an installation completed by the company | Works as expected |
 | Bathroom Installations | Navigate to the Our Services page and see the bottom section about the companies bathroom installations |  User sees an installation completed by the company | Works as expected |
 | Gallery Images | Navigate to the Gallery page and see the companies installations |  User sees an installation completed by the company | Works as expected |
+| Customer Review Carousel | Navigate to the Our Servies page and see reviews left by customers |  User sees what prevoius customers think of the work | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/design/hero-image-user-story.png">
@@ -352,6 +352,7 @@ This webpage has been tested on the following browsers:
 <img src="docs/design/kitchen-installation-images-user-stories.png">
 <img src="docs/design/bathroom-installation-images-user-story.png">
 <img src="docs/design/gallery-images-feature.png">
+<img src="docs/design/carousel-user-story.png">
 </details>
 
 4. As a first time user, I want to know how to contact the company.
@@ -370,12 +371,22 @@ This webpage has been tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information wheree company is located | Works as expected |
-| Map | Navigate to the Contact Us page, map is located at the bottom of the page, user can see exactly where company is located | User can see location of company | Works as expected |
+| Gallery Images | Navigate to the Gallery page and see the companies recent installations |  User sees recent installations completed by the company | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/design/contact-info-user-story.png">
 <img src="docs/design/map-user-story.png">
+</details>
+
+6. As a returning user, I want to see the new kitchen styles the company offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Open any page on the website and scroll to the bottom of the page | User will see contact information wheree company is located | Works as expected |
+| Map | Navigate to the Contact Us page, map is located at the bottom of the page, user can see exactly where company is located | User can see location of company | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/design/gallery-images-feature.png">
 </details>
 
 
@@ -383,7 +394,6 @@ This webpage has been tested on the following browsers:
 
 
 
-6. As a returning user, I want to see the new kitchen styles the company offer.
 7. As a returning user, I want to see the new bathroom styles the company offer.
 8. As a returning user, I want to find the company contact number to call for any issues.
 9. As a returning user, I want to leave a review following recent work completed by the company.
