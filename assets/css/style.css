@@ -543,7 +543,7 @@ main#carousel {
         overflow: hidden;
         background: rgba(169, 169, 169, 1);
     }
- 
+
     #sidebar-menu li {
         display: flex;
         align-items: center;
@@ -553,8 +553,7 @@ main#carousel {
 
     #sidebar-menu li a {
         text-decoration: none;
-        list-style: none;
-        font-size: 250%;
+        font-size: 16px;
         color: black;
     }
     
