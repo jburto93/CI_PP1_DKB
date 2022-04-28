@@ -260,7 +260,7 @@ footer {
     font-size: 120%;
 }
 
-form.contact-us-button:hover {
+.contact-us-button:hover {
     padding: 1.4%;
 }
 
@@ -841,8 +841,11 @@ form.contact-us-button:hover {
           /* contact us page */
 
         #contact-us-text p {
-            width: 10rem;
+            margin: 0 auto;
+            width: 60%;
+            margin-left: 5vw;
             margin-top: 5%;
-            margin-right: 10rem;
+            font-size: 1em;
+        }
         }
     }
