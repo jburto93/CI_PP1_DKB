@@ -292,6 +292,13 @@ The webpage is made up of eleven features across four pages.
 - 5. As a first time user, I want to know where the company is located.
 - 13. As the site owner, I want the customers to know where we are located.
 
+### CSS Validation
+T validate the CSS the W3C Jigsaw CSS Validation Service was used.
+The validator showed one error from the CCS file from the customer review carousel.
+<details><summary>style.css</summary>
+<img src="docs/design/W3C-CCS-Validator.png">
+</details>
+
 ### Performing tests on various devices 
 The wis webpage has been tested on the following devices:
 - Samsung Galaxy 1
