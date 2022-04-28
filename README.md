@@ -294,7 +294,7 @@ The webpage is made up of eleven features across four pages.
 
 ### CSS Validation
 T validate the CSS the W3C Jigsaw CSS Validation Service was used.
-The validator showed one error from the CCS file from the customer review carousel.
+The validator showed one error from the CCS file from the customer review carousel taken from [Codepen](https://codepen.io/onion2k/pen/xxZYBVj).
 <details><summary>style.css</summary>
 <img src="docs/design/W3C-CCS-Validator.png">
 </details>
