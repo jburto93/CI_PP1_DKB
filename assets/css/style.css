@@ -343,7 +343,7 @@ align-center {
 .hash-list {
     display: inline-block;
     width: 120%;
-    margin-left: -6rem;
+    margin-left: -9rem;
 }
 
 @media (min-width: 950px){

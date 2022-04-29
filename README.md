@@ -250,12 +250,11 @@ The webpage is made up of eleven features across four pages.
 - 12. As the site owner, I want the customer to see what we offer.
 
 
-#### Customer Review Carousel
-![Customer Review Carousel](docs/features/customer-carousel.png)
+#### Customer Reviews
+![Customer Reviews](docs/features/customer-reviews-feature.png)
 - This feature shows the user reviews left by recent customers who have had work completed by the company.
-- User can move to the next review by clicking the circle icons.
 
-#### User stories covered by the Customer Review Carousel
+#### User stories covered by the Customer Reviews
 - 3. As a first time user, I want to see the standard of work the company produce.
 
 ### Gallery Features
@@ -312,9 +311,9 @@ The HTML was validated using the W3C Markup Validation service, all four pages p
 
 ### CSS Validation
 To validate the CSS the W3C Jigsaw CSS Validation Service was used.
-The validator showed one error from the CCS file from the customer review carousel taken from [Codepen](https://codepen.io/onion2k/pen/xxZYBVj).
+The webpage passed with no errorscarousel.
 <details><summary>style.css</summary>
-<img src="docs/validation/W3C-CCS-Validator.png">
+<img src="docs/validation/css-validation.png">
 </details>
 
 ### Accessibility
@@ -398,7 +397,7 @@ This webpage has been tested on the following browsers:
 | Kitchen Installations | Navigate to the Our Services page and see the top section about the companies kitchen installations |  User sees an installation completed by the company | Works as expected |
 | Bathroom Installations | Navigate to the Our Services page and see the bottom section about the companies bathroom installations |  User sees an installation completed by the company | Works as expected |
 | Gallery Images | Navigate to the Gallery page and see the companies installations |  User sees an installation completed by the company | Works as expected |
-| Customer Review Carousel | Navigate to the Our Servies page and see reviews left by customers |  User sees what prevoius customers think of the work | Works as expected |
+| Customer Reviews | Navigate to the Our Servies page and see reviews left by customers |  User sees what prevoius customers think of the work | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/hero-image-user-story.png">
@@ -407,7 +406,7 @@ This webpage has been tested on the following browsers:
 <img src="docs/user-stories/kitchen-installation-images-user-stories.png">
 <img src="docs/user-stories/bathroom-installation-images-user-story.png">
 <img src="docs/user-stories/gallery-images-feature.png">
-<img src="docs/user-stories/carousel-user-story.png">
+<img src="docs/user-stories/customer-reviews-user-story.png">
 </details>
 
 4. As a first time user, I want to know how to contact the company.
@@ -581,13 +580,13 @@ You can make a local clone, this is how I did it.
 
 ## Credits
 ### Media
-All images on the webpage are taken from [Pexels](https://www.pexels.com/).
+All images on the webpage are taken from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
   
 ### Code
 - The HTML and CSS used for the responsive [Hamburger Menu](https://codepen.io/alvarotrigo/pen/MWEJEWG) was taken from the Codepen.
 - The CSS for the [Image Gallery](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) was inspired by the Love Running project.
 - The CSS code used to clear the 'Your Query' text in the contact form when the box is clicked was taken from [W3 Schools](https://www.w3schools.com/howto/howto_html_clear_input.asp )
-- The HTML and CSS used for the [Customer Review Carousel](https://codepen.io/onion2k/pen/xxZYBVj) was taken from Codepen.
+- The HTML and CSS used for the [Customer Reviews](https://www.bootdey.com/snippets/view/Customer-Reviews) was taken from Bootdey.
 
 
 ## Acknowledgements
