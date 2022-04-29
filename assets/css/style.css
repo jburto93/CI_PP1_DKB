@@ -252,7 +252,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 5%;
     border: solid 2px black;
-    padding: 1%;
+    padding: 0.5%;
     width: 15%;
     text-align: center;
     background: #ffffff;
@@ -261,7 +261,7 @@ footer {
 }
 
 .contact-us-button:hover {
-    padding: 1.4%;
+    padding: 0.7%;
 }
 
 input.contact-us-button {
@@ -666,10 +666,14 @@ align-center {
         padding-bottom: 5%;
     }
 
-    form.contact-us-button {
+    .contact-us-button {
         width: 25%;
         margin: 0 auto;
         margin-bottom: 5%;
+    }
+
+    input.contact-us-button {
+        font-size: 80%;
     }
 
     .our-services-p {
