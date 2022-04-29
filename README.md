@@ -311,7 +311,7 @@ The HTML was validated using the W3C Markup Validation service, all four pages p
 
 ### CSS Validation
 To validate the CSS the W3C Jigsaw CSS Validation Service was used.
-The webpage passed with no errorscarousel.
+The webpage passed with no errors.
 <details><summary>style.css</summary>
 <img src="docs/validation/css-validation.png">
 </details>
